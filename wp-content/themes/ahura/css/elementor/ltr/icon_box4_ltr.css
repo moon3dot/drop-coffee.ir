@@ -1,0 +1,12 @@
+.icon-box-4-wrap .icon-box i {
+    margin-left: 0;
+    margin-right: 7px;
+}
+
+.icon-box-4-wrap .icons-box a:first-child .icon-box {
+    border-radius: 7px 0 0 7px;
+}
+
+.icon-box-4-wrap .icons-box a:last-child .icon-box {
+    border-radius: 0 7px 7px 0;
+}

@@ -1,0 +1,152 @@
+.timeline {
+    line-height: 1.4em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.timeline .timeline-list .timeline-title {
+    color: #0960ff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.timeline .timeline-item {
+    padding-left: 40px;
+    position: relative;
+}
+
+.timeline .timeline-item:last-child {
+    padding-bottom: 0;
+}
+
+.timeline .timeline-info {
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0 0 0.5em 0;
+    white-space: nowrap;
+}
+
+.timeline .timeline-marker {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15px;
+}
+
+.timeline .timeline-marker:before {
+    border: 3px solid transparent;
+    border-radius: 100%;
+    content: "";
+    display: block;
+    height: 16px;
+    position: absolute;
+    top: 1px;
+    left: 0;
+    width: 16px;
+    transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
+    background: #0960ff;
+}
+
+.timeline .timeline-marker:after {
+    content: "";
+    width: 2px;
+    background: #ccd5db;
+    display: block;
+    position: absolute;
+    top: 19px;
+    bottom: 0;
+    left: 7px;
+}
+
+.timeline .timeline-item:last-child .timeline-marker:after {
+    content: none;
+}
+
+.timeline .timeline-content {
+    padding-bottom: 40px;
+}
+
+.timeline .timeline-text {
+    transition: ease .4s;
+    font-weight: 300;
+    color: #8d8d8d;
+    font-size: 17px;
+    text-align: right;
+    border-radius: 10px;
+    padding: 35px;
+}
+
+.timeline .timeline-item:hover .timeline-text {
+    color: #fff;
+    background-color: #0960ff;
+    box-shadow: 0 0 17px 0 #0960ff;
+}
+
+.timeline .timeline-content p:last-child {
+    margin-bottom: 0;
+}
+
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+@media (min-width: 992px) {
+    .timeline-list,
+    .timeline-list .timeline-item,
+    .timeline-list .timeline-info,
+    .timeline-list .timeline-marker,
+    .timeline-list .timeline-content {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .timeline-list .timeline-item {
+        padding-bottom: 40px;
+    }
+
+    .timeline-list .timeline-marker {
+        position: absolute;
+        left: 50%;
+        margin-left: -7.5px;
+    }
+
+    .timeline-list .timeline-info,
+    .timeline-list .timeline-content {
+        width: 50%;
+    }
+
+    .timeline-list > .timeline-item:nth-child(odd) .timeline-info {
+        float: right;
+        text-align: left;
+        padding-left: 30px;
+    }
+
+    .timeline-list > .timeline-item:nth-child(odd) .timeline-content {
+        float: left;
+        text-align: right;
+        padding-right: 30px;
+
+    }
+
+    .timeline-list > .timeline-item:nth-child(even) .timeline-info {
+        float: left;
+        text-align: right;
+        padding-right: 30px;
+    }
+
+    .timeline-list > .timeline-item:nth-child(even) .timeline-content {
+        float: right;
+        text-align: left;
+        padding-left: 30px;
+    }
+
+    .timeline-list .timeline-item.period {
+        padding: 50px 0 90px;
+    }
+}

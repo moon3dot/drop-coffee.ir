@@ -1,0 +1,135 @@
+.image-slider-2 {
+    border-radius: 13px;
+    overflow: hidden;
+}
+
+.image-slider-2 .swiper .swiper-wrapper {
+    overflow: unset;
+}
+
+.image-slider-2 img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto 0 auto;
+    border-radius: 13px;
+}
+
+.image-slider-2 .swiper-navigation-btns {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: 99;
+    padding: 15px 25px;
+    direction: rtl;
+}
+
+.image-slider-2 .swiper-navigation-btns .swiper-nav-button {
+    display: inline-block;
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    padding: 26px 9px;
+    background-color: #fff;
+}
+
+.image-slider-2 .swiper-navigation-btns .swiper-btn-next {
+    float: left;
+}
+
+.image-slider-2 .swiper-navigation-btns .swiper-btn-next i {
+    transform: translateX(15px);
+}
+
+.image-slider-2 .swiper-navigation-btns .swiper-btn-prev i {
+    transform: translateX(-15px);
+}
+
+.image-slider-2 .swiper-nav-button i {
+    transition: ease .3s;
+}
+
+.image-slider-2 .swiper-nav-button:hover i {
+    transform: translateX(0);
+}
+
+.image-slider-2 .swiper-pagination {
+    text-align: center;
+    padding: 15px 25px;
+    bottom: 0;
+}
+
+.image-slider-2 .swiper-pagination-bullet {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    transition: ease .3s;
+}
+
+.image-slider-2 .swiper-pagination-bullet-active:before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 2px;
+    height: 10px;
+    background-color: #000;
+    right: 4px;
+    top: 100%;
+    margin-top: 4px;
+}
+
+.image-slider-2 .swiper-pagination-bullet-active {
+    transform: translateY(-14px);
+}
+
+.image-slider-2 .gg-arrow-long-right {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid #000;
+    width: 40px;
+    height: 2px
+}
+
+.image-slider-2 .gg-arrow-long-right::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    transform: rotate(45deg);
+    right: 0;
+    bottom: -7px;
+}
+
+.image-slider-2 .gg-arrow-long-left {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid #000;
+    width: 40px;
+    height: 2px
+}
+
+.image-slider-2 .gg-arrow-long-left::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    transform: rotate(45deg);
+    left: 0;
+    bottom: -7px
+} 

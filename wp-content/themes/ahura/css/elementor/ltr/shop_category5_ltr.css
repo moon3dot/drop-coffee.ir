@@ -1,0 +1,18 @@
+.shop-category4-wrap .swiper-nav-button {
+    transform: rotateY(180deg);
+}
+
+.shop-category4-wrap .swiper-nav-button.swiper-btn-next {
+    left: auto;
+    right: 10px;
+}
+
+.shop-category4-wrap .swiper-nav-button.swiper-btn-prev {
+    right: auto;
+    left: 10px;
+}
+
+.shop-category4-wrap .swiper-slide:not(:first-child) {
+    border-right: none;
+    border-left: 1px solid #f1f2f4;
+}

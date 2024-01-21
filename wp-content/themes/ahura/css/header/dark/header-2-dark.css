@@ -1,0 +1,39 @@
+html:is(.ahura-dark-theme, .ahura-black-theme) .header-template-2 .header-main-section,
+html:is(.ahura-dark-theme, .ahura-black-theme) .header-menu-side-content li ul,
+html:is(.ahura-dark-theme, .ahura-black-theme) .header-menu-side.show-side .header-menu-side-content .side-icons {
+    border-color: var(--ahura-c-bg-secondary);
+}
+
+html:is(.ahura-dark-theme, .ahura-black-theme) .header-template-2 .header-search-form input,
+html:is(.ahura-dark-theme, .ahura-black-theme) .header-template-2 .header-search-form .search-result,
+html:is(.ahura-dark-theme, .ahura-black-theme) .header-template-2 .header-buttons .h-btn,
+html:is(.ahura-dark-theme, .ahura-black-theme) .mini-cart-header-content,
+html:is(.ahura-dark-theme, .ahura-black-theme) .header-template-2 .header-mega-menu-container > div,
+html:is(.ahura-dark-theme, .ahura-black-theme) .header-template-2 .header-mega-menu-container .menu > li > ul {
+    color: var(--ahura-c-text-secondary);
+    background-color: var(--ahura-c-bg-primary);
+}
+
+html:is(.ahura-dark-theme, .ahura-black-theme) .header-menu-side.show-side .header-menu-side-content .side-icons,
+html:is(.ahura-dark-theme, .ahura-black-theme) .header-menu-side-content li a:hover {
+    background-color: var(--ahura-c-bg-primary);
+}
+
+html:is(.ahura-dark-theme, .ahura-black-theme) .header-template-2 .header-search-form button,
+html:is(.ahura-dark-theme, .ahura-black-theme) .header-template-2 .header-mega-menu-container a {
+    color: var(--ahura-c-text-secondary);
+}
+
+html:is(.ahura-dark-theme, .ahura-black-theme) .header-mega-menu-container li a {
+    background-color: transparent;
+}
+
+html:is(.ahura-dark-theme, .ahura-black-theme) .header-mega-menu-container li a:hover,
+html:is(.ahura-dark-theme, .ahura-black-theme) .header-menu-side-content {
+    background-color: var(--ahura-c-bg-secondary);
+}
+
+html:is(.ahura-dark-theme, .ahura-black-theme) .header-mega-menu-container .menu > li > ul {
+    background-blend-mode: multiply;
+}
+

@@ -1,0 +1,29 @@
+.website-footer .footer-widget .menu li a{
+    line-height:40px;
+    background:rgba(0,0,0,0.1);
+    padding:0 5%;
+    display:block;
+    border-right:4px solid rgba(0,0,0,0.1);
+    margin-bottom:7px;
+    box-shadow:var(--main_soft_shadow);
+}
+
+.website-footer .footer-widget .menu li a:hover{
+    padding-right:10%;
+}
+
+.website-footer .footer-widget span.footer-widget-title{
+    font-size: 1.4375em;
+    font-weight: 500;
+    line-height:3;
+    color:var(--main-text-color);
+    margin-bottom:20px;
+}
+
+.website-footer .footer-widget *{
+    color: var(--main-text-color);
+}
+
+.footer-template-1 .sidebar-mode-2 ul li:before {
+    display: none;
+}

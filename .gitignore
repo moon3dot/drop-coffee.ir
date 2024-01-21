@@ -6,7 +6,8 @@
 #ignore the wp-content folder
 wp-content/languages/
 wp-content/plugins/
-wp-content
+# wp-content
+wp-content/upgrade
 wp-content/upgrade-temp-backup/
 wp-content/uploads/
 *index.php

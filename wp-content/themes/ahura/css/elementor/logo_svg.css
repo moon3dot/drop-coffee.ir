@@ -1,0 +1,22 @@
+.ahura-svg-logo-element {
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    width: 100%;
+}
+
+.ahura-svg-logo-element a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ahura-svg-logo-element svg,
+.ahura-svg-logo-element img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.ahura-svg-logo-element img {
+    object-fit: contain;
+}

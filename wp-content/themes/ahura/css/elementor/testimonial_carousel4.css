@@ -1,0 +1,83 @@
+.testimonial-carousel-4, .testimonial-carousel-item {
+    position: relative;
+}
+
+.testimonial-carousel-4.testimonial-carousel.has-paginate-progressbar .swiper {
+    padding-top: 40px;
+}
+
+.testimonial-carousel-4.testimonial-carousel.has-navigate {
+    padding: 0 2em;
+}
+
+.testimonial-carousel-4.testimonial-carousel.has-navigate .swiper {
+    position: unset;
+}
+
+.testimonial-carousel-4 .tc-swiper-pagination {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.testimonial-carousel-4 .tc-swiper-pagination.swiper-pagination-bullets span {
+    width: 10px;
+    height: 10px;
+}
+
+.testimonial-carousel-4 .swiper-nav-button {
+    position: absolute;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    z-index: 1;
+    cursor: pointer;
+    font-size: 30px;
+    color: #000;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.testimonial-carousel-4 .swiper-nav-button.tc-swiper-button-next {
+    left: 0;
+    right: unset;
+}
+
+.testimonial-carousel-4 .testimonial-carousel-item-content
+{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 27px;
+    border: 1px solid #f0f0f0;
+}
+.testimonial-carousel-4 .testimonial-carousel-item-content .avatar
+{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.1);
+}
+.testimonial-carousel-4 .testimonial-carousel-item-content .name
+{
+    align-items: flex-start;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #2a8ae9;
+    color: #ffffff;
+    align-self: start;
+    font-size: 18px;
+}
+.testimonial-carousel-4 .testimonial-carousel-item-content .content
+{
+    margin-top: 35px;
+}

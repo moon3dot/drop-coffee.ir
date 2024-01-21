@@ -1,0 +1,137 @@
+/* Cube Loader */
+.ah-cube-loader {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 1.2rem auto;
+    position: relative;
+}
+
+.ah-cube-loader:before {
+    content: '';
+    width: 48px;
+    height: 5px;
+    background: #f0808050;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    border-radius: 50%;
+    animation: ah-shadow-animation 0.5s linear infinite;
+}
+
+.ah-cube-loader:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #f08080;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 4px;
+    animation: ah-jump-animation 0.5s linear infinite;
+}
+
+@keyframes ah-jump-animation {
+    15% {border-bottom-right-radius: 3px;}
+    25% {transform: translateY(9px) rotate(22.5deg);}
+    50% {transform: translateY(18px) scale(1, .9) rotate(45deg);border-bottom-right-radius: 40px;}
+    75% {transform: translateY(9px) rotate(67.5deg);}
+    100% {transform: translateY(0) rotate(90deg);}
+}
+
+@keyframes ah-shadow-animation {
+    0%, 100% {transform: scale(1, 1);}
+    50% {transform: scale(1.2, 1);}
+}
+
+/* Spinner Loader */
+.ah-spinner-loader {
+    width: 56px;
+    height: 56px;
+    display: grid;
+    border: 4.5px solid #0000;
+    border-color: #dbdcef #0000;
+    border-radius: 50%;
+    animation: ah-spinner-loader-animation 1s infinite linear;
+}
+
+.ah-spinner-loader::before,
+.ah-spinner-loader::after {
+    content: "";
+    grid-area: 1/1;
+    margin: 2px;
+    border: inherit;
+    border-radius: 50%;
+}
+
+.ah-spinner-loader::before {
+    border-color: #474bff #0000;
+    animation: inherit;
+    animation-duration: 0.5s;
+    animation-direction: reverse;
+}
+
+.ah-spinner-loader::after {
+    margin: 9px;
+}
+
+@keyframes ah-spinner-loader-animation {
+    100% {transform: rotate(1turn);}
+}
+
+/* Line Loader */
+.ah-line-loader {
+    display: block;
+    width: 130px;
+    height: 4px;
+    border-radius: 30px;
+    background-color: rgba(0,0,0,0.2);
+    position: relative;
+}
+
+.ah-line-loader::before {
+    content: "";
+    position: absolute;
+    background: #0071e2;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 30px;
+    animation: ah-line-moving 1s ease-in-out infinite;
+}
+
+@keyframes ah-line-moving {
+    50% {width: 100%;}
+    100% {
+        width: 0;
+        right: 0;
+        left: unset;
+    }
+}
+
+/* Heart Rate Loader */
+
+.ah-heart-rate-loader svg polyline {
+    fill: none;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.ah-heart-rate-loader svg polyline#back {
+    fill: none;
+    stroke: #ff4d5033;
+}
+
+.ah-heart-rate-loader svg polyline#front {
+    fill: none;
+    stroke: #ff4d4f;
+    stroke-dasharray: 48, 144;
+    stroke-dashoffset: 192;
+    animation: ah-heart-rate-loader-animation 1.4s linear infinite;
+}
+
+@keyframes ah-heart-rate-loader-animation {
+    72.5% {opacity: 0;}
+    to {stroke-dashoffset: 0;}
+}

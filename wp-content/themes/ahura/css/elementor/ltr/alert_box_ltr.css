@@ -1,0 +1,9 @@
+.ahura-alert-box {
+    padding-left: 17px;
+    padding-right: 55px;
+}
+
+.ahura-alert-box .close-alert-box {
+    left: auto;
+    right: 10px;
+}

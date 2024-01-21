@@ -1,0 +1,19 @@
+.grid-products2-wrap .regular_price {
+    flex-direction: row-reverse;
+}
+
+.grid-products2-wrap .reg-price-wrap {
+    flex-direction: row-reverse;
+}
+
+.grid-products2-wrap .add-to-cart {
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+    line-height: 23px;
+}
+
+.grid-products2-wrap .box-title i {
+    margin-left: 0;
+    margin-right: 7px;
+}

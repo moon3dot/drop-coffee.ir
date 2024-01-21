@@ -1,0 +1,15 @@
+.post-list-2-widget,
+.post-list-2-widget * {
+    direction: ltr;
+}
+
+.post-list-2-widget .cat-name {
+    padding-left: 1em;
+    border-right: none;
+    border-left: 4px solid;
+    float: left;
+}
+
+.post-list-2-widget .cat-more-link {
+    float: right;
+}

@@ -1,0 +1,21 @@
+.breadcrumb-1.ltr {
+    direction: ltr;
+    text-align: left;
+}
+
+.breadcrumb-1.ltr a::after, .breadcrumb-1.ltr a::before {
+    left: auto;
+    right: -1em;
+}
+
+.breadcrumb-1.ltr a::after {
+    border-right-color: transparent;
+    border-left: 1.1em solid #fff;
+}
+
+.breadcrumb-1.ltr a::before {
+    left: auto;
+    right: -1.1em;
+    border-right: 1.1em solid transparent;
+    border-left: 1.1em solid #e7ecf0;
+}

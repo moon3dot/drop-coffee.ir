@@ -1,0 +1,88 @@
+.testimonial-carousel-7, .testimonial-carousel-item {
+    position: relative;
+}
+
+.testimonial-carousel-7 .testimonial-carousel-item {
+    display: flex;
+}
+
+.testimonial-carousel-7 .testimonial-carousel-item .testimonial-carousel-sidebar {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.testimonial-carousel-7.testimonial-carousel.has-paginate-progressbar .swiper {
+    padding-top: 40px;
+}
+
+.testimonial-carousel-7.testimonial-carousel.has-navigate {
+    padding: 0 2em;
+}
+
+.testimonial-carousel-7.testimonial-carousel.has-navigate .swiper {
+    position: unset;
+}
+
+.testimonial-carousel-7 .tc-swiper-pagination {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.testimonial-carousel-7 .tc-swiper-pagination.swiper-pagination-bullets span {
+    width: 10px;
+    height: 10px;
+}
+
+.testimonial-carousel-7 .swiper-nav-button {
+    position: absolute;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    z-index: 1;
+    cursor: pointer;
+    font-size: 30px;
+    color: #000;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.testimonial-carousel-7 .swiper-nav-button.tc-swiper-button-next {
+    left: 0;
+    right: unset;
+}
+
+.testimonial-carousel-7 .testimonial-carousel-item-content {
+    position: relative;
+    transition: ease all .4s;
+    background-color: #ffffff;
+    padding: 23px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.testimonial-carousel-7 .avatar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-carousel-7 .avatar img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 575.98px) {
+    .testimonial-carousel-7 .testimonial-carousel-item {
+        flex-direction: column;
+    }
+}

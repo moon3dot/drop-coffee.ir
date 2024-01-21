@@ -1,0 +1,31 @@
+.ahura_element_icon_box_2,
+a.ahura_element_icon_box_2 {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 0 rgba(158, 71, 198, 0.5);
+    background-color: #9037FF;
+    text-align: center;
+    padding: 1.5em;
+}
+
+.ahura_element_icon_box_2 .icon {
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.ahura_element_icon_box_2 .title {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.ahura_element_icon_box_2 .el-des {
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 15px;
+}

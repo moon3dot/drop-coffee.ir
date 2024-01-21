@@ -1,0 +1,125 @@
+.postbox1 {
+    width: 100%;
+}
+
+.postbox1 .postbox1posts {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.postbox1 .grid-post {
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.3s;
+    height: 350px;
+    margin: 0 0 1.5em 0;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.postbox1 .grid-post a {
+    display: block;
+    width: 100%;
+    background-color: transparent;
+}
+
+.postbox1 .grid-post-grey a {
+    background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.8) 0%, transparent 50%);
+}
+
+.postbox1 .cat-name {
+    width: 89%;
+    line-height: 40px;
+    display: inline-block;
+    border-right: 4px solid;
+    padding-right: 1em;
+    margin: 0 0 30px 0;
+    text-align: right;
+    color: #36D43D;
+    border-color: #36D43D;
+    font-size: 19px;
+}
+
+.postbox1 .cat-more-link {
+    text-align: center;
+    width: 11%;
+    float: left;
+    margin: 0 0 30px 0;
+    color: #fff;
+    background-color: #36D43D;
+    font-size: 15px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 8px 15px 8px 15px;
+    box-shadow: 0 5px 20px 0 rgba(54, 212, 61, 0.5);
+}
+
+.postbox1 .postbox1posts article {
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.3s;
+    position: relative;
+}
+
+.postbox1 .postbox1posts article:hover {
+    opacity: 0.9;
+}
+
+.postbox1 .postbox1posts article img {
+    width: 100%;
+    height: auto;
+}
+
+.postbox1 .postbox1posts article a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.postbox1 .postbox1posts article a span {
+    width: 100%;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 23px;
+    padding: 2em 1em 2em 1em;
+}
+
+@media screen and (max-width: 1001px) {
+    .postbox1 .cat-name {
+        width: 70%;
+    }
+
+    .postbox1 .cat-more-link {
+        width: 25%;
+    }
+
+    .postbox1 .postbox1posts {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .postbox1 .postbox1posts article,
+    .cat-name,
+    .cat-more-link {
+        width: 100%;
+    }
+
+    .postbox1 .postbox1posts {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 600px) {
+    .postbox1 .postbox1posts {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

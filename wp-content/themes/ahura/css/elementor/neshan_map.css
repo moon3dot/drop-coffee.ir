@@ -1,0 +1,32 @@
+.neshan-map-1 .ahura-map-element {
+    width: 100%;
+    height: 500px;
+    z-index: 9;
+}
+
+.neshan-map-1 .leaflet-marker-icon {
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.neshan-map-1 .map-details {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 15;
+    text-align: center;
+    padding: 5px;
+    background-color: #666666;
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.neshan-map-1 .leaflet-popup-content {
+    direction: rtl;
+    text-align: right;
+}

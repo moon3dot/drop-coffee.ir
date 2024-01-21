@@ -1,0 +1,6 @@
+#elementor-editor-wrapper #e-notice-bar,
+#elementor-editor-wrapper #elementor-panel-category-pro-elements,
+#elementor-editor-wrapper #elementor-panel-get-pro-elements{
+    display: none;
+}
+

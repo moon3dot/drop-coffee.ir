@@ -1,0 +1,64 @@
+.ahura_price_box_3
+{
+    background-color: #ffffff;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    padding: 20px;
+	position: relative;
+}
+.ahura_price_box_3 .title
+{
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: #ff071b;
+}
+.ahura_price_box_3 .price-line
+{
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+	position: absolute;
+	width: 80%;
+	padding: 20px;
+	left: 0;
+    justify-content: space-between;
+	border-radius: 0 50px 50px 0;
+	background-color: #ff071b;
+	color: #ffffff;
+}
+.ahura_price_box_3 .price-line .value,
+.ahura_price_box_3 .price-line .currency {
+	font-size: 30px;
+	font-weight: bold;
+}
+.ahura_price_box_3 .price_items
+{
+	margin-top: 110px;
+}
+.ahura_price_box_3 .price_items ul li
+{
+	padding: 3px;
+	list-style-type: none;
+	color: #35495C;
+}
+.ahura_price_box_3 .price_items ul li::before
+{
+	content: '';
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	margin: 0 10px;
+	background-color: #ff071b;
+}
+.ahura_price_box_3 a.btn-wrapper
+{
+    display: block;
+    text-align: center;
+    border-radius: 30px;
+    padding: 5px;
+    margin-top: 20px;
+	background-color: #ff071b;
+	color: #ffffff;
+}

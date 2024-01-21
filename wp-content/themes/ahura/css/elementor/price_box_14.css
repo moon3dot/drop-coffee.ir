@@ -1,0 +1,111 @@
+.ahura_element_price_box_14 {
+    border-radius: 20px;
+}
+
+.ahura_element_price_box_14 .ah-header {
+    padding: 20px;
+    border-radius: 17px 17px 0 0;
+}
+
+.ahura_element_price_box_14 .ah-icon-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+}
+
+.ahura_element_price_box_14 .ah-icon-wrapper .ah-icon {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 35px;
+    color: #b4db76;
+}
+
+.ahura_element_price_box_14 .ah-label-wrapper {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ahura_element_price_box_14 .ah-label-wrapper .ah-label {
+    display: inline-block;
+    border-radius: 20px;
+    padding: 3px 30px;
+    color: #b4db76;
+}
+
+.ahura_element_price_box_14 .ah-price-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.ahura_element_price_box_14 .ah-price-section .ah-price-value {
+    font-size: 70px;
+    font-weight: bold;
+    color: #b4db76;
+}
+
+.ahura_element_price_box_14 .ah-price-section .ah-price-currency {
+    font-size: 25px;
+    color: #b4db76;
+    font-weight: bold;
+}
+
+.ahura_element_price_box_14 .ah-box-description {
+    color: #d5d5d5;
+    text-align: center;
+    font-size: 20px;
+}
+
+.ahura_element_price_box_14 .ah-items {
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ahura_element_price_box_14 .ah-items .ah-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.ahura_element_price_box_14 .ah-items .ah-item .ah-icon {
+    color: #304088;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.ahura_element_price_box_14 .ah-items .ah-item .ah-value {
+    color: #d5d5d5;
+}
+
+
+.ahura_element_price_box_14 .ah-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.ahura_element_price_box_14 .ah-button a {
+    display: inline-block;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: all .2s;
+}
+
+.ahura_element_price_box_14 .ah-box-footer {
+    color: #b4db76;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 12px;
+}

@@ -1,0 +1,11 @@
+.mailer-lite2 .ml-form-input i {
+    right: auto;
+    left: 0;
+}
+
+.mailer-lite2 .ml-form-input input,
+.mailer-lite2 .ml-form-input textarea {
+    text-align: left;
+    padding-right: 12px;
+    padding-left: 34px;
+}

@@ -1,0 +1,21 @@
+body{
+    font-family: dana !important;
+}
+#elementor-panel-content-wrapper .elementor-panel-category-title,
+#elementor-panel-content-wrapper .elementor-element .elementor-element-title-wrapper .title,
+.elementor-loading-title,
+.elementor-panel-page-editor,
+.elementor-panel-elements-navigation,
+#elementor-panel-saver-button-publish,
+#elementor-panel-footer-saver-options,
+body .elementor-panel,a
+{
+    font-family: dana;
+}
+.elementor-loading-title{
+    letter-spacing: 0 !important;
+    font-size: 20px !important;
+}
+#elementor-notice-bar{
+	display: none !important;
+}

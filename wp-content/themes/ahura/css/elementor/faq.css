@@ -1,0 +1,27 @@
+.ahura_element_faq .ah-items .ah-item {
+    padding: 20px 10px;
+    cursor: pointer;
+}
+.ahura_element_faq .ah-items .ah-item:not(:last-of-type)
+{
+    border-bottom: 1px solid #eaeaea;
+}
+.ahura_element_faq .ah-items .ah-item .ah-title-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ahura_element_faq .ah-items .ah-item .ah-title-section .ah-title {
+    font-size: 25px;
+}
+.ahura_element_faq .ah-items .ah-item.ah-open .ah-title-section .ah-icon.ah-for-open,
+.ahura_element_faq .ah-items .ah-item:not(.ah-open) .ah-title-section .ah-icon.ah-for-close
+{
+    display: none;
+}
+.ahura_element_faq .ah-items .ah-item .ah-description {
+    color: #868686;
+
+    display: none;
+}

@@ -1,0 +1,102 @@
+.ahura_element_price_box_15 {
+    padding: 30px 0;
+    position: relative;
+}
+
+.ahura_element_price_box_15 .ah-label {
+    position: absolute;
+    padding: 3px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.ahura_element_price_box_15 .ah-title {
+    font-weight: bold;
+    font-size: 35px;
+    padding: 0 30px;
+}
+
+.ahura_element_price_box_15 .ah-title-suffix {
+    color: #828282;
+    padding: 0 30px;
+}
+
+.ahura_element_price_box_15 .ah-price-section {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+    padding: 0 30px;
+}
+
+.ahura_element_price_box_15 .ah-price-section .ah-price {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+
+.ahura_element_price_box_15 .ah-price-section .ah-price .ah-price-value {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.ahura_element_price_box_15 .ah-price-section .ah-price .ah-price-currency {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.ahura_element_price_box_15 .ah-price-section .ah-price-suffix {
+    font-size: 25px;
+}
+
+.ahura_element_price_box_15 .ah-description {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 15px;
+    padding: 0 30px;
+}
+
+.ahura_element_price_box_15 .ah-items {
+    padding: 15px 30px 0;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ahura_element_price_box_15 .ah-items .ah-item {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    width: fit-content;
+}
+
+.ahura_element_price_box_15 .ah-items .ah-item .ah-item-label {
+    position: absolute;
+    background-color: #3f5dd5;
+    color: white;
+    padding: 1px 5px 0;
+    border-radius: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.ahura_element_price_box_15 .ah-button {
+    padding: 0 30px;
+    margin-top: 30px;
+}
+
+.ahura_element_price_box_15 .ah-button a {
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 50px;
+    color: #fff;
+    transition: all .2s;
+}
+
+.ahura_element_price_box_15 .ah-footer {
+    padding: 0 30px;
+    margin-top: 30px;
+    color: #717171;
+    text-align: center;
+}

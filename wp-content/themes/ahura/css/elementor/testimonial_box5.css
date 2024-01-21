@@ -1,0 +1,81 @@
+.testimonial-box5 {
+    position: relative;
+    transition: ease all .4s;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.07);
+    background-color: #ffffff;
+    border-radius: 17px;
+    padding: 23px;
+}
+
+.testimonial-box5 .head {
+    display: flex;
+    gap: 15px;
+}
+
+.testimonial-box5 .stars {
+    color: #dddddd;
+}
+
+.testimonial-box5 .stars span {
+    font-size: 13px;
+}
+
+.testimonial-box5 .head .avatar {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-box5 .head .avatar img {
+    width: 74px;
+    border-radius: 15px;
+    box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.13);
+}
+
+.testimonial-box5 .head .meta {
+    padding: 0 10px 0 0;
+}
+
+.testimonial-box5 .icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 15px;
+}
+
+.testimonial-box5 .icon svg {
+    width: 40px;
+    height: 40px;
+    fill: #ff9d00;
+}
+
+.testimonial-box5 .rate {
+    display: inline-block;
+    text-align: left;
+}
+
+.testimonial-box5 .rate .num {
+    font-size: 15px;
+}
+
+.testimonial-box5 .head .name {
+    color: #000000;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.testimonial-box5 .head .site-name {
+    color: #bfbfbf;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.testimonial-box5 .rate .stars span.checked {
+    color: #ff9d00;
+}
+
+.testimonial-box5 .content {
+    color: #979797;
+    font-size: 13px;
+    font-weight: 300;
+    margin: 18px 0 0 0;
+}

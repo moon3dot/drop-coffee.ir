@@ -1,0 +1,48 @@
+.mega-menu2-element .mm2-container {
+    right: auto;
+    left: 0;
+}
+
+.mega-menu2-element .mm2-side-content {
+    right: auto;
+    left: -100%;
+}
+
+.mega-menu2-element .mm2-side-content li #mega_menu_plus {
+    right: 0;
+    left: auto;
+}
+
+.mega-menu2-element .mm2-side-container.mm2-side-show .mm2-side-content {
+    right: auto;
+    left: 0;
+}
+
+.mega-menu2-element .mm2-side-content ul li a svg,
+.mega-menu2-element .mm2-side-content ul li img,
+.mega-menu2-element .mm2-button > svg,
+.mega-menu2-element .mm2-content .menu > li > a i,
+.mega-menu2-element .mm2-content .menu > li > a svg,
+.mega-menu2-element .mm2-content .menu > li > a img {
+    margin-left: 0;
+    margin-right: 7px;
+}
+
+.mega-menu2-element .mm2-content .menu > li > a svg,
+.mega-menu2-element .mm2-content .menu > li > a img,
+.mega-menu2-element .mm2-content .menu > li > a i {
+    float: left;
+}
+
+.mega-menu2-element .mm2-sub-items > ul > li {
+    float: left;
+}
+
+.mega-menu2-element .mm2-sub-items,
+.mega-menu2-element .mm2-sub-items > ul {
+    background-position: right 20px bottom 20px;
+}
+
+.mega-menu2-element .mm2-content .menu li a {
+    text-align: left;
+}

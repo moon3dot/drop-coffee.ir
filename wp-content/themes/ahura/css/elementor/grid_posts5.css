@@ -1,0 +1,101 @@
+.grid-post-5 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid-post-5 a {
+    overflow: hidden;
+    border-radius: 7px;
+}
+
+.grid-post-5 .grid-post-5-right {
+    width: calc(850px - 20px);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-left: 20px;
+    height: 498px;
+}
+
+.grid-post-5 .grid-post-5-left {
+    width: 405px;
+}
+
+.grid-post-5 .grid-post-5-left-top {
+    display: block;
+    height: 239px;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.grid-post-5 .grid-post-5-left-bottom {
+    display: block;
+    height: 239px;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grid-post-5 h2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+    padding: 30px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.grid-post-5.none-cover-overlay h2 {
+    background: unset;
+}
+
+@media only screen and (max-width: 1280px) {
+    .grid-post-5 .grid-post-5-right {
+        width: 65%;
+    }
+
+    .grid-post-5 .grid-post-5-left {
+        width: 35%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .grid-post-5 {
+        flex-direction: column;
+    }
+
+    .grid-post-5 .grid-post-5-right {
+        width: 100%;
+        min-height: 300px;
+        margin-bottom: 20px;
+    }
+
+    .grid-post-5 .grid-post-5-left {
+        width: 100%;
+    }
+
+    .grid-post-5 .grid-post-5-left-top {
+        width: 100%;
+        min-height: 300px;
+    }
+
+    .grid-post-5 .grid-post-5-left-bottom {
+        width: 100%;
+        min-height: 300px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .grid-post-5 h2 {
+        padding: 15px;
+    }
+}

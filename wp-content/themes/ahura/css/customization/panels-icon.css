@@ -1,0 +1,88 @@
+#customize-theme-controls > ul > li .panel-title:before,
+#customize-theme-controls > ul > li > h3:before,
+#ah-search-results > ul > li .panel-title:before,
+#ah-search-results > ul > li > h3:before {
+    font-family: Dashicons;
+    font-size: 20px;
+    font-weight: 300;
+    opacity: .6;
+    position: relative;
+    top: -4px;
+    vertical-align: middle;
+    float: right;
+    margin-left: 7px;
+}
+
+#customize-theme-controls > ul > li .panel-title:hover:before,
+#customize-theme-controls > ul > li > h3:hover:before,
+#customize-theme-controls > ul > li .panel-title:focus:before,
+#customize-theme-controls > ul > li > h3:focus:before {
+    opacity: 1;
+}
+
+body:not(.rtl) #customize-theme-controls > ul > li .panel-title:before,
+body:not(.rtl) #customize-theme-controls > ul > li > h3:before {
+    float: left;
+    margin-left: 0;
+    margin-right: 7px;
+}
+
+#accordion-panel-ah_theme_panel_style .panel-title:before,
+#accordion-panel-ah_theme_panel_style > h3:before {
+    content: "";
+}
+
+#accordion-section-ah_theme_section_layout .panel-title:before,
+#accordion-section-ah_theme_section_layout > h3:before {
+    content: "";
+}
+
+#accordion-panel-ah_theme_panel_header .panel-title:before,
+#accordion-panel-ah_theme_panel_header > h3:before {
+    content: "";
+}
+
+#accordion-panel-ah_theme_panel_blog .panel-title:before,
+#accordion-panel-ah_theme_panel_blog > h3:before {
+    content: "";
+}
+
+#accordion-panel-ah_theme_panel_woocommerce .panel-title:before,
+#accordion-panel-ah_theme_panel_woocommerce > h3:before {
+    content: "";
+}
+
+#accordion-panel-ah_theme_panel_portfolio .panel-title:before,
+#accordion-panel-ah_theme_panel_portfolio > h3:before {
+    content: "";
+}
+
+#accordion-panel-ah_theme_panel_pages .panel-title:before,
+#accordion-panel-ah_theme_panel_pages > h3:before {
+    content: "";
+}
+
+#accordion-section-ah_theme_section_sidebar .panel-title:before,
+#accordion-section-ah_theme_section_sidebar > h3:before {
+    content: "";
+}
+
+#accordion-panel-ah_theme_panel_footer .panel-title:before,
+#accordion-panel-ah_theme_panel_footer > h3:before {
+    content: "";
+}
+
+#accordion-section-ah_theme_section_global .panel-title:before,
+#accordion-section-ah_theme_section_global > h3:before {
+    content: "";
+}
+
+#accordion-section-ah_theme_section_admin .panel-title:before,
+#accordion-section-ah_theme_section_admin > h3:before {
+    content: "";
+}
+
+#accordion-section-ah_theme_section_backup .panel-title:before,
+#accordion-section-ah_theme_section_backup > h3:before {
+    content: "";
+}

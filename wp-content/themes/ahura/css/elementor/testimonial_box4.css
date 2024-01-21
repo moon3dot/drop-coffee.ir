@@ -1,0 +1,36 @@
+.testimonial-box4
+{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    border-radius: 30px;
+}
+.testimonial-box4 .head
+{
+    display: flex;
+}
+.testimonial-box4 .icon
+{
+    position: absolute;
+    left: 23px;
+    font-size: 6rem;
+    top: 0;
+}
+.testimonial-box4 .avatar
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 25%;
+    overflow: hidden;
+}
+.testimonial-box4 .name
+{
+    align-items: flex-start;
+    margin: 10px;
+}
+.testimonial-box4 .content
+{
+    margin-top: 15px;
+}

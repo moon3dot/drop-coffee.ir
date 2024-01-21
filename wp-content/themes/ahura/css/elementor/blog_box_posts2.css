@@ -1,0 +1,147 @@
+.postbox2-2 {
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    padding-top: 20px;
+    box-shadow: var(--main_soft_shadow);
+}
+
+.postbox2-2 article img {
+    width: 100%;
+    border-radius: 10px;
+    height: auto;
+}
+
+.postbox2-2 .cat-more-link {
+    width: 14%;
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.postbox2-2 .cat-name {
+    width: 75%;
+}
+
+.postbox2-2 .postbox2post1 {
+    padding: 20px 20px 10px 20px;
+}
+
+.postbox2-2 .postbox2post1 a.fimage {
+    float: right;
+    width: 42%;
+    margin-left: 3%;
+}
+
+.postbox2-2 .fimage:hover {
+    opacity: 0.9;
+}
+
+.postbox2-2 .postbox2post1 h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+.postbox2-2 .postbox2post1 p {
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.postbox2-2 .postbox2post2 {
+    padding: 20px;
+}
+
+.postbox2-2 .postbox2post2 h4 {
+    color: #555;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 5% 0;
+}
+
+.postbox2-2 .postbox2post2 h4 {
+    padding: 20px 0 0 0;
+    font-size: 16px;
+}
+
+.postbox2-2 .postbox2post2 article {
+    margin: 10px 0;
+}
+
+.postbox2-2 .cat-name {
+    width: 89%;
+    line-height: 40px;
+    display: inline-block;
+    border-right: 4px solid;
+    padding-right: 1em;
+}
+
+.postbox2-2 .cat-more-link {
+    text-align: center;
+    width: 9%;
+    float: left;
+}
+
+body:not(.rtl) .postbox2-2 .cat-name {
+    border-right: none;
+    border-left: 4px solid;
+    padding-right: 0;
+    padding-left: 1em;
+}
+
+body:not(.rtl) .postbox2-2 .cat-more-link {
+    margin-right: 20px;
+    margin-left: 0;
+    float: right;
+}
+
+body:not(.rtl) .postbox2-2 .postbox2post2 h4 {
+    text-align: left;
+}
+
+body:not(.rtl) .postbox2-2 .postbox2post1 a.fimage {
+    margin-right: 3%;
+    margin-left: 0;
+}
+
+body:not(.rtl) .postbox2-2 .postbox2post1 a.fimage {
+    float: left;
+}
+
+body:not(.rtl) .postbox2-2 * {
+    direction: ltr;
+}
+
+@media only screen and (max-width: 1001px) {
+    .postbox2-2 {
+        width: 97%;
+        margin-right: auto;
+        margin-left: auto;
+        float: none;
+        padding: 20px;
+    }
+
+    .postbox2-2 .cat-name {
+        width: 70%;
+    }
+
+    .postbox2-2 .cat-more-link {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .postbox2-2 .postbox2post1 a.fimage {
+        width: 100%;
+    }
+
+    .postbox2-2 .postbox2post2 article {
+        width: 98%;
+        float: none;
+    }
+
+    .postbox2-2 .cat-name {
+        width: 100%;
+    }
+}

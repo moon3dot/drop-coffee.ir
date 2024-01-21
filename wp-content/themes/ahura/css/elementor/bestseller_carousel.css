@@ -1,0 +1,27 @@
+.ahura-element-bestseller-carousel img {
+    max-width: 100%;
+    width: 100%;
+    height: 260px;
+    border-radius: 7px;
+    object-fit: cover;
+}
+
+.ahura-element-bestseller-carousel .p-item h3 {
+    font-size: 19px;
+    margin: 13px 0;
+    text-align: center;
+}
+
+.ahura-element-bestseller-carousel .row {
+    row-gap: 15px;
+}
+
+.ahura-element-bestseller-carousel .price,
+.ahura-element-bestseller-carousel .price ins {
+    color: #01b369;
+}
+
+.ahura-element-bestseller-carousel .price del {
+    color: #cdcdcd;
+    margin: 0 7px;
+}

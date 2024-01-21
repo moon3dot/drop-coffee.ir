@@ -1,0 +1,24 @@
+html:is(.ahura-dark-theme, .ahura-black-theme) div.siteside-2 .topmenu-wrap {
+    background-color: var(--ahura-c-bg-primary);
+}
+
+html:is(.ahura-dark-theme, .ahura-black-theme) .siteside-2 span.siteside-close {
+    background-color: var(--ahura-c-bg-primary);
+    color: #fff;
+}
+
+html:is(.ahura-dark-theme, .ahura-black-theme) .siteside-2 li ul, .siteside-2 li ul li ul {
+    border-color: #3e3e3e;
+}
+
+html:is(.ahura-dark-theme, .ahura-black-theme) .siteside-2 .open-mobile-submenu,
+html:is(.ahura-dark-theme, .ahura-black-theme) div.siteside-2 li.menu-item:hover > a {
+    color: #fff;
+}
+
+html:is(.ahura-dark-theme, .ahura-black-theme) div.siteside-2 li a:hover,
+html:is(.ahura-dark-theme, .ahura-black-theme) div.siteside-2 li.current-menu-item a:hover,
+html:is(.ahura-dark-theme, .ahura-black-theme) div.siteside-2 ul li.menu-item a:hover {
+    background-color: var(--ahura-c-bg-secondary);
+    color: var(--ahura-c-text-secondary);
+}

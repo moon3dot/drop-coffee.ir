@@ -1,0 +1,15 @@
+.wc-block-components-checkbox .wc-block-components-checkbox__input ~ .wc-block-components-checkbox__label {
+    padding-right: 0;
+    padding-left: 25px;
+}
+
+.wc-block-product-categories-list li a:before,
+.sidebar .sidebar-widget ul.product-categories li a:before {
+    margin-left: 0;
+    margin-right: 7px;
+}
+
+.ah-widget-brands-list .brand-promotion {
+    right: auto;
+    left: 0;
+}

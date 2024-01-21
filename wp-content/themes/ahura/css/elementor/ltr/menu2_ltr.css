@@ -1,0 +1,28 @@
+.menu2-element .menu2-wrapper ul ul{
+    border-radius: 0 16px 16px 16px;
+}
+
+.menu2-element .menu2-side-content {
+    right: auto;
+    left: -100%;
+}
+
+.menu2-element .menu2-side-content li #mega_menu_plus {
+    right: 0;
+    left: auto;
+}
+
+.menu2-element .menu2-side-container.menu2-side-show .menu2-side-content {
+    right: auto;
+    left: 0;
+}
+
+.menu2-element .menu2-side-content ul li a svg,
+.menu2-element .menu2-side-content ul li img,
+.menu2-element svg,
+.menu2-element li > a i,
+.menu2-element li > a svg,
+.menu2-element li > a img {
+    margin-left: 0;
+    margin-right: 7px;
+}

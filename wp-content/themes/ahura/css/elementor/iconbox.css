@@ -1,0 +1,54 @@
+.iconbox{
+	text-align:center;
+	display: block;
+	width: 100%;
+}
+.iconbox .icon_wrapper{
+	display:inline-block;
+	color:white;
+	padding:30px 50px;
+	background:linear-gradient(40deg, #e03827 0%, #f9a47a 100%);
+	box-shadow:0px 20px 40px 0px rgba(224,56,39,0.4);
+	border-radius:6px;
+	width:100%;
+}
+.iconbox .icon_wrapper svg {
+	width: 65px;
+}
+.iconbox-blue .icon_wrapper{
+	background:linear-gradient(40deg, #2171d4 0%, #2cc4f0 100%);
+	box-shadow:0px 20px 40px 0px rgba(44,130,237,0.4);
+}
+.iconbox-purple .icon_wrapper{
+	background:linear-gradient(40deg, #5e2ced 0%, #a485fd 100%);
+	box-shadow:0px 20px 40px 0px rgba(94,44,237,0.4);
+}
+.iconbox-pink .icon_wrapper{
+	background:linear-gradient(40deg, #cc16b5 0%, #da85fd 100%);
+	box-shadow:0px 20px 40px 0px #cc16b540;
+}
+.iconbox-yellow .icon_wrapper{
+	background:linear-gradient(40deg, #e87e16 0%, #f0de14 100%);
+	box-shadow:0px 20px 40px 0px rgba(224,149,32,0.4);
+}
+.iconbox-orange .icon_wrapper{
+	background:linear-gradient(40deg, #e84616 0%, #f09814 100%);
+	box-shadow:0px 20px 40px 0px rgba(224, 103, 32, 0.4);
+}
+.iconbox-green .icon_wrapper{
+	background:linear-gradient(40deg, #11a04b 0%, #14f0b3 100%);
+	box-shadow: 0 20px 40px 0 #14f0b370;
+}
+.iconbox span {
+	margin-top: 25px;
+	display: block;
+	color: #fff;
+	font-size: 18px;
+}
+.iconbox p{
+	margin-top:30px;
+	display:block;
+	overflow-wrap: break-word;
+	font-size:14px;
+	text-align:center;
+}

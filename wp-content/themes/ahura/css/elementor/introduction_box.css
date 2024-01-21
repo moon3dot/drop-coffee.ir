@@ -1,0 +1,106 @@
+a.introduction-box,
+.introduction-box {
+    min-height: 343px;
+    box-shadow: 0 48px 48px -32px rgb(23 16 159 / 20%), 0 96px 96px -64px rgb(23 16 159 / 40%);
+    background-color: transparent;
+    background-image: linear-gradient(200deg, #521d91 0%, #4a42ec 100%);
+    border-radius: 20px;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.introduction-box-right h2,
+.introduction-box-right .title {
+    width: 100%;
+    font-size: 38px;
+    margin-top: 70px;
+    color: #fff;
+}
+
+.introduction-box-right h3,
+.introduction-box-right .subtitle{
+    width: 100%;
+    color: #fff;
+    font-weight: 100;
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+.introduction-box::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 32px;
+    height: 32px;
+    border-radius: 2000px;
+    background: #00c67a;
+    top: -16px;
+    left: 64px;
+}
+
+.introduction-box::after {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: #ffad00;
+    right: -20px;
+    bottom: -20px;
+}
+
+.introduction-box-left {
+    width: 50%;
+}
+
+.introduction-box-left img {
+    width: 100%;
+    height: 330px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .introduction-box,
+    a.introduction-box {
+        flex-direction: column;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .introduction-box-right h2,
+    .introduction-box-right h3,
+    .introduction-box-right .title,
+    .introduction-box-right .subtitle {
+        margin-right: 0;
+    }
+
+    .introduction-box-left {
+        width: 100%;
+    }
+
+    .introduction-box-left img {
+        width: 100%;
+        height: 400px;
+        margin-top: 30px;
+    }
+
+    .introduction-box-right .title {
+        margin-top: 0;
+    }
+
+    .introduction-box-right .subtitle {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .introduction-box-left img {
+        width: 100%;
+        height: 150px;
+    }
+}

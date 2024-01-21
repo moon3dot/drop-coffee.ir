@@ -1,0 +1,109 @@
+.image-slider-1 {
+    border-radius: 13px;
+    overflow: hidden;
+}
+
+.image-slider-1 .swiper .swiper-wrapper {
+    overflow: unset;
+}
+
+.image-slider-1 img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto 0 auto;
+    border-radius: 13px;
+}
+
+.image-slider-1 .swiper-navigation-btns {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    padding: 15px 25px;
+    direction: rtl;
+}
+
+.image-slider-1 .swiper-navigation-btns .swiper-nav-button {
+    display: inline-block;
+    margin-right: 17px;
+    cursor: pointer;
+}
+
+.image-slider-1 .swiper-pagination {
+    text-align: right;
+    padding: 15px 25px;
+    bottom: 0;
+}
+
+.image-slider-1 .swiper-pagination-bullet {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    transition: ease .3s;
+}
+
+.image-slider-1 .swiper-pagination-bullet-active:before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 2px;
+    height: 10px;
+    background-color: #000;
+    right: 4px;
+    top: 100%;
+    margin-top: 4px;
+}
+
+.image-slider-1 .swiper-pagination-bullet-active {
+    transform: translateY(-14px);
+}
+
+.image-slider-1 .gg-arrow-long-right {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid #000;
+    width: 40px;
+    height: 2px
+}
+
+.image-slider-1 .gg-arrow-long-right::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    transform: rotate(45deg);
+    right: 0;
+    bottom: -7px;
+}
+
+.image-slider-1 .gg-arrow-long-left {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid #000;
+    width: 40px;
+    height: 2px
+}
+
+.image-slider-1 .gg-arrow-long-left::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    transform: rotate(45deg);
+    left: 0;
+    bottom: -7px
+} 

@@ -1,0 +1,47 @@
+.ahura_element_faq_3 .ah-items .ah-item {
+    padding: 20px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 5px 0;
+
+    border: 1px solid #f2f2f2;
+}
+
+.ahura_element_faq_3 .ah-items .ah-item:hover,
+.ahura_element_faq_3 .ah-items .ah-item.ah-open {
+    background-color: #f4f4f4;
+}
+
+.ahura_element_faq_3 .ah-items .ah-item .ah-title-section {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 15px;
+}
+
+.ahura_element_faq_3 .ah-items .ah-item .ah-image{
+    background-color: #c6e1ee;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #29607b;
+}
+
+.ahura_element_faq_3 .ah-items .ah-item .ah-title-section .ah-title {
+    font-size: 18px;
+}
+
+.ahura_element_faq_3 .ah-items .ah-item.ah-open .ah-title-section .ah-icon.ah-for-open,
+.ahura_element_faq_3 .ah-items .ah-item:not(.ah-open) .ah-title-section .ah-icon.ah-for-close {
+    display: none;
+}
+
+.ahura_element_faq_3 .ah-items .ah-item .ah-description {
+    color: #868686;
+    margin-top: 15px;
+    display: none;
+}

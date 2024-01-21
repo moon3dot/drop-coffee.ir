@@ -1,0 +1,160 @@
+.grid-posts6 {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.grid-posts6 .post-wrap {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.grid-posts6 .post-wrap .post-cover {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: ease .5s;
+}
+
+.grid-posts6 .post-wrap:hover .post-cover {
+    transform: scale(1.2);
+}
+
+.grid-posts6 .post-wrap .post-content {
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    align-content: space-between;
+    background-color: rgba(0, 0, 0, .32);
+}
+
+.grid-posts6 .post-wrap .post--content {
+    padding: 1.5rem;
+}
+
+.grid-posts6 .post-wrap .post--content div {
+    color: #fff;
+}
+
+.grid-posts6 .post-wrap .post--content .post-meta span {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.grid-posts6 .post-wrap-equal {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-posts6 .post-wrap-equal .post-wrap {
+    min-height: 321px;
+}
+
+.grid-posts6 .box-title {
+    width: 100%;
+    position: relative;
+    padding: 1.2rem;
+}
+
+.grid-posts6 .box-title::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 7px;
+    height: 100%;
+    border-radius: 50px;
+    background-color: #deb57b;
+}
+
+.grid-posts6 .box-des {
+    margin: 1rem 0;
+    color: #8d8d8d;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.grid-posts6 .box-buttons a,
+.grid-posts6 .post-wrap .divider span,
+.grid-posts6 .post-content .post-link {
+    display: inline-block;
+    transition: ease .3s;
+}
+
+.grid-posts6 .posts-count,
+.grid-posts6 .post-meta span,
+.grid-posts6 .post-excerpt,
+.grid-posts6 .post-excerpt p {
+    font-weight: 300;
+}
+
+.grid-posts6 .post-wrap .post-content > div {
+    width: 100%;
+}
+
+.grid-posts6 .box-buttons a :is(i,svg),
+.grid-posts6 .post-link-box a :is(i,svg) {
+    margin: 0 6px;
+    position: relative;
+    top: 2px;
+}
+
+.grid-posts6 .box-buttons a svg {
+    width: 15px;
+}
+
+.grid-posts6 .box-buttons a {
+    color: #fff;
+    background-color: #deb57b;
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 50px 50px 50px 50px;
+    padding: 10px 20px 10px 20px;
+}
+
+.grid-posts6 .post-item-col:hover {
+    z-index: 100;
+}
+
+.grid-posts6 .post-wrap .post--content .post-title h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.grid-posts6 .post-content .divider span {
+    background-color: #fff;
+    width: 50%;
+    height: 1px;
+}
+
+.grid-posts6 .post-content .post-link {
+    color: #fff;
+    background-color: #deb57b;
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 0 15px 0 0;
+    padding: 10px 20px 10px 20px;
+}
+
+.grid-posts6 .post-link-box {
+    text-align: left;
+}
+
+.grid-posts6 .box-title-content .posts-count {
+    color: #8d8d8d;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 1024px) {
+    .grid-posts6 .box-title-content {
+        margin-bottom: 20px;
+    }
+}

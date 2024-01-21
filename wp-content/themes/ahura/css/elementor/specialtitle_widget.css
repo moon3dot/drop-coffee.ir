@@ -1,0 +1,30 @@
+
+.special_text_widget .special_text {
+    position: relative;
+}
+.special_text_widget div {
+    text-align: center;
+}
+.special_text_widget .special_text,
+.special_text_widget .regular_text_area {
+    font-size: 36px;
+    color: #181522;
+    text-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.special_text_widget .special_text_area svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: calc(100% + 0.75em);
+    height: calc(100% + 0.75em);
+    transform: translate(-50%,-50%);
+    overflow: visible;
+}
+.special_text_widget .special_text_area svg path {
+    fill: none;
+    stroke-dasharray: 1500;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #ffc23a;
+    stroke-width: 5px;
+}

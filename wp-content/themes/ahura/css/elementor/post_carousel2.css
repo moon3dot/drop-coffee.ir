@@ -1,0 +1,42 @@
+.carousel2post {
+    height: 480px;
+    background-position: center;
+    transition-duration: 0.3s;
+    background-size: cover;
+}
+
+.carousel2post:hover {
+    background-position: left center;
+}
+
+.carousel2post a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+}
+
+.carousel2post .details {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    width: 100%;
+}
+
+.carousel2post a h2 {
+    width: 100%;
+    display: block;
+    color: #fff;
+    font-size: 20px;
+}
+
+.carousel2post a span {
+    color: #fff;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.post-carousel2 .owl-nav {
+    display: none;
+}

@@ -1,0 +1,178 @@
+ul.control-section.open .customize-control {
+    padding: 15px 10px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid #cdcdcd;
+    box-shadow: 0 2px 2px #00000036;
+    border-radius: 5px;
+    position: relative;
+    z-index: 5;
+}
+ul.control-section.open .customize-control:hover {
+    border-color: #959595;
+}
+.ahura_cusomize_controller_description
+{
+    display: block;
+    font-style: italic;
+    opacity: 0.8;
+    background-color: #f0f0f0;
+    padding: 7px;
+    border-radius: 5px;
+}
+.ahura_cusomize_controller_description.has_margin
+{
+    margin: 5px 5px 0;
+}
+.ahura_cusomize_controller_description.margin_bottom
+{
+    margin-bottom: 15px;
+}
+.ahura_cusomize_controller_description.margin_top {
+    margin-top: 15px;
+}
+ul.control-section.open .customize-control .ahura-customizer-controller-link-wrapper {
+    margin: 5px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+ul.control-section.open .customize-control .ahura-customizer-controller-link-wrapper > span {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    padding: 3px;
+    box-sizing: border-box;
+}
+/*ul.control-section.open .customize-control .ahura-customizer-controller-link-wrapper span:last-child {
+    width: 100%;
+    display: inline-block;
+}*/
+ul.control-section.open .customize-control .ahura-customizer-controller-link-wrapper a
+{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    background-color: #2271b1;
+    border-radius: 3px;
+}
+.ajax-load {
+    display: none;
+    cursor: pointer;
+    pointer-events: all;
+    opacity: 1;
+}
+.ajax-load.spin {
+    animation: spin_loader 1.2s linear infinite;
+    pointer-events: none;
+    opacity: .5;
+    cursor: progress;
+}
+[load-ajax] + .ajax-load {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    font-size: 14px;
+    color: #7e7e7e;
+    background-color: #fff;
+    border-radius: 50px;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+
+@keyframes spin_loader {
+    0%{transform: rotate(0)}
+    100%{transform: rotate(360deg)}
+}
+
+.ahura-customizer-backup-form {
+    position: absolute;
+    left: -99999px;
+}
+
+.ahura-hr {
+    margin: 20px 0px 10px;
+}
+
+.ahura-import-file {
+    background: #eeeeee;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.ahura-import-images {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.ahura-uploading {
+    background: #eeeeee;
+    display: none;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 12px;
+}
+
+ul.control-section.open .customize-control.ah-heading-box-wrap {
+    border: none;
+    box-shadow: none;
+    background-color: #3F51B5;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.ah-search-not-found {
+    display: none;
+}
+
+.ah-customizer-search-form {
+    border-top: 1px solid #f0f0f0;
+}
+
+.ah-customizer-search-form h4 {
+    padding: 10px;
+}
+
+.ah-customizer-search-form span {
+    width: 100%;
+    display: inline-block;
+}
+
+.ah-customizer-search-form span.search-field-wrapper {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.ah-customizer-search-form .search-input-label {
+    margin-bottom: 7px;
+    font-size: 15px;
+}
+
+.ah-customizer-search-form input {
+    font-size: 12px;
+    width: 75%;
+}
+
+.ah-customizer-search-form button {
+    font-weight: 400;
+}
+
+#ah-customizer-search-results li {
+    background-color: #fff;
+}
+
+#ah-customizer-search-results li .search-setting-path {
+    display: block;
+    padding: 3px 13px;
+}
+
+#customize-controls .hl {
+    background: #ffcd1724;
+}

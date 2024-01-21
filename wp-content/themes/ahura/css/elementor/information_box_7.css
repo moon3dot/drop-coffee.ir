@@ -1,0 +1,145 @@
+.information-box-7-item
+{
+    border-radius: 100px;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1000;
+    box-shadow: -6px 0 9px 0 rgba(0,0,0,.1);
+    display: flex;
+    min-height: 150px;
+    background-color: #ffffff;
+}
+
+.information-box-7-icon
+{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.information-box-7-icon::before
+{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 100px;
+    border: 3px dashed #3663f9;
+}
+.information-box-7-icon::after
+{
+    content: '';
+    width: 120%;
+    height: 120%;
+    border-radius: 100px;
+    position: absolute;
+    z-index: -1;
+}
+.information-box-7-item-icon{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    font-size: 30px;
+    background-color: #3663f9;
+    color: #fff;
+}
+.information-box-7-content{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    text-align: center;
+}
+.information-box-7-content span{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #35495C;
+}
+.information-box-7-content p{
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #35495C;
+}
+
+.information-box-7-item.mobile-right .information-box-7-icon
+{
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.information-box-7-item.mobile-left .information-box-7-icon
+{
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.information-box-7-item.mobile-top .information-box-7-icon
+{
+    top: -80px;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+/* TABLET */
+@media (min-width: 768px)
+{
+    .information-box-7-item.tablet-right .information-box-7-icon
+    {
+        right: 0;
+        left: unset;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .information-box-7-item.tablet-left .information-box-7-icon
+    {
+        left: 0;
+        right: unset;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .information-box-7-item.tablet-top .information-box-7-icon
+    {
+        top: -80px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+}
+
+/* DESKTOP */
+@media (min-width: 992px)
+{
+    .information-box-7-content
+    {
+        margin-top: unset;
+        margin-right: 150px;
+    }
+    .information-box-7-item.desktop-right .information-box-7-icon
+    {
+        right: 0;
+        left: unset;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .information-box-7-item.desktop-left .information-box-7-icon
+    {
+        left: 0;
+        right: unset;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .information-box-7-item.desktop-top .information-box-7-icon
+    {
+        top: -80px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+}

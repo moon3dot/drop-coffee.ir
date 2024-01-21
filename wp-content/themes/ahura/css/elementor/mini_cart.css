@@ -1,0 +1,17 @@
+.mini-cart-element .mini-cart-header {
+    position: relative;
+}
+
+.mini-cart-element .cart-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mini-cart-element .cart-icon {
+    color: #000;
+}
+
+.mini-cart-element .cart-icon svg {
+    width: 20px;
+}

@@ -1,0 +1,78 @@
+.price-table-1 {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.price-table-1 .price div {
+    display: inline-block;
+    color: #fff;
+}
+
+.price-table-1 .price {
+    text-align: center;
+    background-color: #e44f47;
+    padding: 10px;
+}
+
+.price-table-1 .price .p {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.price-table-1 .price .c {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.price-table-1 .price .discount {
+    display: block;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.price-table-1 .title {
+    position: relative;
+    text-align: center;
+    background-color: #e13427;
+    color: #fff;
+    padding: 25px;
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, .20);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.price-table-1 .buttons a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 30;
+    color: #fff;
+    background-color: transparent;
+    background-image: linear-gradient(110deg, #e13427 0%, #e83446 100%);
+    padding: 13px;
+    border-radius: 15px;
+}
+
+.price-table-1 .content {
+    background-color: #fff;
+    padding: 15px;
+}
+
+.price-table-1 .features .item {
+    text-align: center;
+    background-color: #f7f7f7;
+    color: #000;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 12px;
+    margin: 10px 0 10px 0;
+    border-radius: 10px;
+}
+
+.price-table-1 .features .item .icon {
+    font-size: 20px;
+    color: #30B82C;
+}

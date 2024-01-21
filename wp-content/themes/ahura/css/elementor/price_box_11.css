@@ -1,0 +1,88 @@
+.ahura_element_price_box_11 {
+    padding: 20px;
+    border-radius: 30px;
+    border: 1px solid #f0f0f0;
+}
+
+.ahura_element_price_box_11 .ah-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.ahura_element_price_box_11 .ah-header .ah-title-section .ah-title .ah-value {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.ahura_element_price_box_11 .ah-header .ah-title-section .ah-title .ah-label {
+    background-color: #161a35;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 40px;
+    font-size: 14px;
+}
+
+.ahura_element_price_box_11 .ah-header .ah-title-section .ah-subtitle {
+    font-size: 15px;
+    color: #606060;
+}
+
+.ahura_element_price_box_11 .ah-header .ah-price-section {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.ahura_element_price_box_11 .ah-header .ah-price-section .ah-price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ahura_element_price_box_11 .ah-header .ah-price-section .ah-price-suffix {
+    color: #919191;
+}
+
+.ahura_element_price_box_11 .ah-content .ah-title {
+    font-weight: bold;
+}
+
+.ahura_element_price_box_11 .ah-content .ah-description {
+    font-size: 15px;
+    color: #606060;
+}
+
+.ahura_element_price_box_11 .ah-content .ah-items {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 5px;
+}
+
+.ahura_element_price_box_11 .ah-content .ah-button-wrapper {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #e6e6e6;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.ahura_element_price_box_11 .ah-content .ah-button-wrapper > a {
+    background-color: #161a35;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    flex: auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .ahura_element_price_box_11 .ah-header .ah-title-section .ah-title .ah-label {
+        display: block;
+        clear: both;
+        text-align: center;
+        margin: 10px 0;
+    }
+}

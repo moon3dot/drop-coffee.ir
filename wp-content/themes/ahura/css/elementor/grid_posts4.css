@@ -1,0 +1,122 @@
+.grid-post4 {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    min-height: 300px;
+    gap: 0;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.grid-post4 .grid-post4-right {
+    width: 50%;
+    background-size: cover;
+    position: relative;
+    -webkit-transition: background-size 0.3s;
+    transition: background-size 0.3s;
+}
+
+.grid-post4 .grid-post4-right::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .65) 100%);
+    top: 0;
+    left: 0;
+}
+
+.grid-post4 .grid-post4-left {
+    width: 50%;
+    display: grid;
+}
+
+.grid-post4 .grid-post4-left-item {
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    -webkit-transition: background-size 0.3s;
+    transition: background-size 0.3s;
+}
+
+.grid-post4 .grid-post4-left-item::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .65) 100%);
+    top: 0;
+    left: 0;
+}
+
+.grid-post4 .grid-post4-right.none-cover-overlay::after,
+.grid-post4 .grid-post4-left-item.none-cover-overlay::after {
+    display: none;
+}
+
+.grid-post4 .grid-post4-title {
+    position: absolute;
+    bottom: 40px;
+    right: 0;
+    z-index: 9;
+    width: 100%;
+    transition-duration: 0.3s;
+    color: #fff;
+    font-size: 20px;
+    padding: 15px 15px 15px 15px;
+}
+
+.grid-post4-right:hover > h2,
+.grid-post4-left-item:hover > h2 {
+    bottom: 50px;
+}
+
+.grid-post4 .grid-post4-right:hover > h2,
+.grid-post4 .grid-post4-left-item:hover > h2 {
+    bottom: 50px;
+}
+
+.grid-post4 .grid-post4-data {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 9;
+    padding: 15px 15px 15px 15px;
+}
+
+.grid-post4 a:hover .grid-post4-title {
+    transform: translateY(-10px);
+}
+
+.grid-post4 .grid-post4-data > div {
+    display: inline-block;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.grid-post4 .grid-pots4-author {
+    margin: 0 15px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .grid-post4 {
+        flex-direction: column;
+    }
+
+    .grid-post4 .grid-post4-right,
+    .grid-post4 .grid-post4-left {
+        width: 100%;
+        min-height: 270px;
+    }
+    .grid-post4 .grid-post4-left {
+        min-height: 350px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .grid-post4 .grid-post4-right,
+    .grid-post4 .grid-post4-left {
+        width: 100%;
+    }
+}

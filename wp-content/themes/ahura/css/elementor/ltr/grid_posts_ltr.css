@@ -1,0 +1,13 @@
+.cat-name {
+    padding-left: 1em;
+    border-right: none;
+    border-left: 4px solid;
+}
+
+.postbox1 .cat-name {
+    float: left;
+}
+
+.postbox1 .cat-more-link {
+    float: right;
+}

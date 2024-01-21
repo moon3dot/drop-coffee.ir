@@ -1,0 +1,97 @@
+select[name*='-icon-selector'] {
+    display: none;
+}
+
+.fonticon-selector-container {
+    position: relative;
+    width: 100%;
+}
+
+.fonticon-selector-container * {
+    box-sizing: border-box;
+}
+
+.fonticon-selector-selected {
+    display: flex;
+    position: relative;
+    height: 30px;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #adadad;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 6px;
+}
+
+.fonticon-selector-selected:hover {
+    color: #2271b1;
+    border-color: #7c7c7c;
+}
+
+.fonticon-selector-selected em {
+    width: 11%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 5px;
+}
+
+.fonticon-selector-selected span {
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.fonticon-selector-selected i {
+    font-size: 15px;
+    margin: 0 7px;
+}
+
+.fonticon-selector-items-wrap {
+    width: 100%;
+    height: 170px;
+    background-color: #000;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px #00000057;
+    overflow: hidden;
+}
+
+.fonticon-selector-items-wrap input {
+    width: 100%;
+    height: 35px;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    text-align: center;
+    background-color: #2e2e2e;
+    color: #fff;
+}
+
+.fonticon-selector-items {
+    width: 100%;
+    height: calc(100% - 35px);
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    color: #fff;
+    padding: 7px;
+    gap: 5px;
+    justify-content: center;
+    align-items: start;
+    align-content: start;
+}
+
+.fonticon-selector-items > div {
+    width: 10%;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+.fonticon-selector-items > div:hover {
+    color: #ffc107;
+}
+
+.fonticon-selector-items > div.selected {
+    color: #77cf10;
+}

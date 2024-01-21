@@ -1,0 +1,40 @@
+body:not(.elementor-editor-active) .ahura-mobile-navbar-1 {
+    position: fixed;
+    z-index: 99999;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+body:not(.elementor-editor-active) .custom-render-widgets-container .ahura-mobile-navbar-1 {
+    position: relative;
+}
+
+body:not(.elementor-editor-active) .ahura-mobile-navbar-primary .ahura-mobile-navbar-1 {
+    display: block;
+}
+
+.ahura-mobile-navbar-1 .navbar-1 .navbar-items .nav-item {
+    flex: 1 0 0;
+    text-align: center;
+}
+
+.ahura-mobile-navbar-1 .navbar-1 .navbar-items {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 15px;
+    box-shadow: 0 3px 17px 0 rgba(0, 0, 0, 0.23);
+}
+
+.ahura-mobile-navbar-1 .navbar-1 .navbar-items .nav-item a {
+    position: relative;
+    top: 4px;
+}
+
+.ahura-mobile-navbar-1 .navbar-1 .navbar-items .nav-item a i {
+    transition: ease .3s;
+    color: #787878;
+    font-size: 20px;
+}

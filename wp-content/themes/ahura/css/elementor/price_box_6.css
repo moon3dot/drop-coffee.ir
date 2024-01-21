@@ -1,0 +1,72 @@
+.ahura_element_price_box_6 {
+    background-color: black;
+    border-radius: 15px;
+    padding: 50px 30px;
+}
+
+.ahura_element_price_box_6 .ah-title {
+    text-align: right;
+    font-size: 30px;
+    color: #c257f2;
+}
+
+.ahura_element_price_box_6 .ah-description {
+    color: #797979;
+}
+
+.ahura_element_price_box_6 .ah-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ahura_element_price_box_6 .ah-price .ah-value {
+    color: white;
+    font-size: 60px;
+}
+
+.ahura_element_price_box_6 .ah-price .ah-currency {
+    color: white;
+    font-size: 40px;
+}
+
+.ahura_element_price_box_6 .ah-button {
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    display: block;
+    text-align: center;
+    transition: background-color .3s, border .3s, color .3s, padding .3s;
+}
+
+.ahura_element_price_box_6 .ah-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.ahura_element_price_box_6 .ah-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.ahura_element_price_box_6 .ah-items .ah-item {
+    padding: 10px 0 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.ahura_element_price_box_6 .ah-items .ah-item:not(:last-of-type) {
+    border-bottom: 1px solid #222;
+
+}
+
+.ahura_element_price_box_6 .ah-items .ah-icon {
+    color: #c257f2;
+}
+
+.ahura_element_price_box_6 .ah-items .ah-value {
+    color: white;
+}

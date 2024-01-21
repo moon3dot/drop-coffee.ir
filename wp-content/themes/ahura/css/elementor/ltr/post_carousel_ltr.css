@@ -1,0 +1,10 @@
+.postbox5 .cat-name {
+    padding-left: 1em;
+    border-right: none;
+    border-left: 4px solid;
+    float: left;
+}
+
+.postbox5 .cat-more-link {
+    float: right;
+}

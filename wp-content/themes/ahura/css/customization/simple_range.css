@@ -1,0 +1,79 @@
+.ahura_customize_simple_range_wrapper input[type=range]
+{
+    -webkit-appearance: none;
+    appearance: none;
+    padding: 0;
+    margin: 0;
+    height: 5px;
+    background-color: transparent;
+    width: 100%;
+    position: relative;
+    margin-top: 30px;
+    direction: ltr;
+}
+.ahura_customize_simple_range_wrapper input[type=range]::before
+{
+    content: attr(value);
+    position: absolute;
+    top: -30px;
+    left: 0;
+    background-color: #1e73beb8;
+    color: white;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+.ahura_customize_simple_range_wrapper input[type=range]:focus
+{
+    outline: none;
+}
+.ahura_customize_simple_range_wrapper input[type=range]::-webkit-slider-runnable-track
+{
+    width: 100%;
+    height: 100%;
+    background-color: #1e73be;
+    position: relative;
+    border-radius: 100px;
+}
+.ahura_customize_simple_range_wrapper input[type=range]::-webkit-slider-thumb
+{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #1e73be;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    border-radius: 50%;
+    margin-top: -7px;
+}
+.ahura_customize_simple_range_wrapper input[type=range]:focus::-webkit-slider-thumb
+{
+    background-color: #1e73be;
+}
+.ahura_customize_simple_range_wrapper input[type=range]::-moz-range-track
+{
+    height: 100%;
+    border-radius: 100px;
+    background-color: #d4d4d4;
+}
+.ahura_customize_simple_range_wrapper input[type=range]::-moz-range-thumb
+{
+    cursor: pointer;
+    background-color: #1e73be;
+    border: none;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.ahura_customize_simple_range_wrapper input[type=range]::-moz-range-progress
+{
+    background-color: #1e73be;
+}
+.ahura_customize_simple_range_wrapper input[type=range]::-moz-focus-outer
+{
+    border: none;
+}

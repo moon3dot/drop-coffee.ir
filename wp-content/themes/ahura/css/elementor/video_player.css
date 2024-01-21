@@ -1,0 +1,17 @@
+.ahura-video-player-element .plyr__controls,
+.ahura-video-player-element .plyr__controls * {
+    direction: ltr;
+}
+
+.ahura-video-player-element .plyr__tooltip {
+    direction: rtl;
+}
+
+.ahura-video-player-element .plyr,
+.ahura-video-player-element iframe {
+    border-radius: 10px;
+}
+
+.ahura-video-player-element .plyr__menu__container {
+    min-width: 100px;
+}

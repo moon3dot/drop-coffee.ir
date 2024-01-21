@@ -1,0 +1,24 @@
+.ahura-modal-search form.search-form #ajax_search_res {
+    top: 100%;
+}
+
+.ahura-modal-search form.search-form #ajax_search_loading {
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+}
+
+.ahura-modal-search .search-item .item-cover {
+    width: 50px;
+}
+
+.ahura-modal-search .search-item .item-cover img {
+    border-radius: 7px;
+    object-fit: cover;
+}
+
+.ahura-modal-search #ajax_search_res .search-item a {
+    display: flex;
+    gap: 10px;
+}
+

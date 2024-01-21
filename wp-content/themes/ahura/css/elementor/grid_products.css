@@ -1,0 +1,134 @@
+.grid-products .ahura-pagination {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.grid-products .ahura-pagination a,
+.grid-products .ahura-pagination span {
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 1em;
+    margin: 3px;
+    transition: ease .3s;
+}
+
+.grid-products .row {
+    row-gap: 35px;
+}
+
+.grid-products .products-list .product,
+.grid-products .products-list .product .product-cover {
+    position: relative;
+    transition: ease .4s;
+}
+
+.grid-products .products-list .product {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 35px;
+    padding: 15px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .07);
+}
+
+.grid-products .products-list .product > div {
+    width: 100%;
+}
+
+.grid-products .products-list .product .product-cover {
+    margin-bottom: 10px;
+}
+
+.grid-products .products-list .product .product-cover img {
+    width: 100%;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.grid-products .products-list .product .product-cover .product-label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 13px;
+}
+
+.grid-products .products-list .product .product-cover .product-label span {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 14px;
+    padding: 3px 13px;
+    border-radius: 7px;
+}
+
+.grid-products .products-list .product .product-label .onsale {
+    color: #fff;
+    background-color: #ffb93a;
+}
+
+.grid-products .products-list .product .product-label .soldout {
+    color: #fff;
+    background-color: #c00;
+}
+
+.grid-products .products-list .product .product-label .new {
+    color: #fff;
+    background-color: #00b0ff;
+}
+
+.grid-products .products-list .product .price-wrap {
+    margin: 10px 0 20px 0;
+}
+
+.grid-products .products-list .product .price-wrap .price del {
+    color: #b7b7b7;
+    margin: 0 7px;
+    display: flex;
+}
+
+.grid-products .products-list .product .price-wrap .price,
+.grid-products .products-list .product .price-wrap .price ins,
+.grid-products .products-list .product .price-wrap .price span {
+    display: inline-block;
+}
+
+.grid-products .products-list .product .price-wrap .price > span > bdi {
+    color: #35495c;
+}
+
+.grid-products .products-list .product .price-wrap .price > span > bdi,
+.grid-products .products-list .product .price-wrap .price ins span bdi {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.grid-products .products-list .product .price-wrap .price span {
+    margin: 0 3px;
+}
+
+.grid-products .products-list .product .product-foot .fa,
+.grid-products .products-list .product .product-foot i,
+.grid-products .products-list .product .product-foot a.added {
+    display: none;
+}
+
+.grid-products .products-list .product .product-foot {
+    margin: 0 0 -32px 0;
+}
+
+.grid-products .products-list .product .product-foot a {
+    display: inline-block;
+    transition: ease .3s;
+    max-width: 100%;
+    color: #fff;
+    background-color: #000;
+    border-radius: 50px 50px 50px 50px;
+    padding: 7px 30px 7px 30px;
+}
+
+.grid-products .products-list .product .title-wrap a * {
+    color: #686868;
+    font-size: 15px;
+}

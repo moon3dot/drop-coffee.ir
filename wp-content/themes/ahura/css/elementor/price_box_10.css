@@ -1,0 +1,55 @@
+.ahura_element_price_box_10 {
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid #f0f0f0;
+}
+
+.ahura_element_price_box_10 .ah-head
+{
+    background-color: #f4f4f4;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+}
+.ahura_element_price_box_10 .ah-head .ah-title {
+    font-size: 25px;
+    text-align: center;
+}
+
+.ahura_element_price_box_10 .ah-head .ah-price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ahura_element_price_box_10 .ah-head .ah-price .ah-price-value {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.ahura_element_price_box_10 .ah-head .ah-button {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.ahura_element_price_box_10 .ah-head .ah-button a {
+    background-color: #190b28;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+
+.ahura_element_price_box_10 .ah-items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px 40px;
+}
+
+.ahura_element_price_box_10 .ah-items .ah-item
+{
+    display: flex;
+    gap: 10px;
+}

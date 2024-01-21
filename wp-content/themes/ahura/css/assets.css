@@ -1,0 +1,34 @@
+.ahura-alert {
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    background-color: #f0f0f0;
+    color: #000;
+    border: 1px solid #d9d9d9;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+.ahura-alert.alert-info {
+    color: #062238;
+    background-color: #c8eeff;
+    border-color: #a7d2f5;
+}
+
+.ahura-alert.alert-error {
+    color: #380606;
+    background-color: #ffd9d9;
+    border-color: #f5a7a7;
+}
+
+.ahura-alert.alert-warning {
+    color: #382906;
+    background-color: #fff0d9;
+    border-color: #f5d6a7;
+}
+
+.ahura-alert.alert-success {
+    color: #063813;
+    background-color: #daffd9;
+    border-color: #a7f5c3;
+}

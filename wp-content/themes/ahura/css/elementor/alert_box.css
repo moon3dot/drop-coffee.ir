@@ -1,0 +1,31 @@
+.ahura-alert-box {
+    position: relative;
+    padding: 17px;
+    padding-left: 55px;
+    background-color: #6600ff;
+}
+
+.ahura-alert-box .close-alert-box {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #00000087;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+.ahura-alert-box .ahura-alert-box-content {
+    text-align: right;
+    color: #fff;
+    font-size: 16px;
+}

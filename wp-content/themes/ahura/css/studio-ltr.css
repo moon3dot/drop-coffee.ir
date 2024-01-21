@@ -1,0 +1,39 @@
+.ahura-studio-filter-tab-items {
+    width: 85%;
+}
+
+.ahura-studio-filter-tab-items .items-list {
+    padding: 2rem 2rem 2rem 0;
+}
+
+.float-options {
+    justify-content: end;
+    right: auto;
+    left: 0;
+}
+
+.ahura-studio-filter-tab-items .filter-item-btns a .btn-progress {
+    right: auto;
+    left: 0;
+}
+
+.studio-content .filter-item .merlin__drawer li {
+    position: relative;
+    text-align: left;
+    direction: rtl;
+}
+
+.studio-content .filter-item .merlin__drawer li .round-check {
+    margin-top: 2px;
+    position: absolute;
+    left: -30px;
+}
+
+@media screen and (max-width: 767px) {
+    .ahura-studio-filter-tab-items {
+        width: 100%;
+    }
+    .ahura-studio-filter-tab-items .items-list {
+        padding: 1rem;
+    }
+}

@@ -1,0 +1,83 @@
+.ahura-brands-wrap {
+    padding: 1.5rem 0 0 0;
+    border: 1px solid #e0e0e6;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.ahura-brands-wrap .brands-title {
+    text-align: center;
+    font-size: 20px;
+    color: #323232;
+    font-weight: 500;
+    margin-bottom: 1.3rem;
+    padding: 0 20px;
+}
+
+.ahura-brands-wrap .brands-title i {
+    font-size: 15px;
+    vertical-align: middle;
+    margin: -3px 3px 0 3px;
+    color: #ffbd44;
+}
+
+.ahura-brands-wrap .brands-title svg {
+    width: 15px;
+}
+
+.ahura-brands-wrap .brands-title svg {
+    width: 25px;
+    height: auto;
+    vertical-align: middle;
+    margin: -3px 3px 0 3px;
+    fill: #ffbd44;
+}
+
+.ahura-brands-wrap .brand-item {
+    width: 110px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ahura-brands-wrap .brand-item a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ahura-brands-wrap .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.ahura-brands-wrap .swiper-slide:not(:first-child) {
+    border-right: 1px solid #f0f0f0;
+}
+
+.ahura-brands-wrap .swiper:not(.swiper-rtl):not(.swiper-container-rtl) .swiper-slide:not(:first-child) {
+    border-right: none;
+    border-left: 1px solid #f0f0f0;
+}
+
+.ahura-brands-wrap .swiper-slide img {
+    transition: ease .2s;
+}
+
+.ahura-brands-wrap .swiper-pagination {
+    position: relative;
+    text-align: center;
+    padding: 15px 25px;
+    bottom: 0;
+}
+
+.ahura-brands-wrap .swiper-pagination-bullet {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    transition: ease .3s;
+}

@@ -1,0 +1,33 @@
+.ahura_element_icon_box_6 {
+    padding: 40px 30px 50px;
+    border-radius: 10px;
+}
+
+.ahura_element_icon_box_6 .ah-icon-wrapper
+{
+    display: flex;
+    justify-content: start;
+}
+.ahura_element_icon_box_6 .ah-icon-wrapper .ah-icon {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.ahura_element_icon_box_6 .ah-title {
+    color: #fffffffc;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 35px;
+}
+
+.ahura_element_icon_box_6 .ah-description {
+    color: #ffffffc7;
+    font-size: 20px;
+    margin-top: 5px;
+}

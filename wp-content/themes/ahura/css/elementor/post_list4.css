@@ -1,0 +1,138 @@
+.post-list-4-top-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.post-list-4-title {
+    line-height: 1.9em;
+    display: block;
+    font-size: 32px;
+    color: #35495c;
+    font-weight: bold;
+}
+
+.post-list-4-description {
+    line-height: 2em;
+    display: block;
+    font-size: 20px;
+    color: #35495c;
+    font-weight: 400;
+}
+
+/* start edited by mihanwp */
+.post-list-4-top-box .post-list-4-link {
+    float: left;
+    background: #ffc33a;
+    box-shadow: 0 7px 20px #ffc33a60;
+    padding: 0 20px;
+    border-radius: 4px;
+    line-height: 3em;
+    font-weight: 200;
+    margin-top: 20px;
+}
+
+.post-list-4-items {
+    display: grid;
+    width: 100%;
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.post-list-4-thumbnail {
+    position: relative;
+
+}
+
+.post-list-4-item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.post-list-4-item.without-title {
+    height: auto;
+}
+
+.post-list-4-item > div {
+    width: 100%;
+}
+
+.post-list-4-item,
+a.post-list-4-item {
+    box-shadow: 0 5px 30px rgb(70 72 77 / 8%);
+    border-radius: 7px;
+    margin-bottom: 30px;
+}
+
+.post-list-4-item img {
+    width: 100%;
+    border-radius: 7px 7px 0 0;
+    height: 357px;
+    display: block;
+    background-color: #fff;
+    object-fit: cover;
+}
+
+.post-list-4-item:not(.without-title) .post-list-4-thumbnail::after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 60%, #fff 100%);
+}
+
+.post-list-4-thumbnail .post-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    font-size: 6em;
+    opacity: .6;
+    transition: ease .3s;
+}
+
+.post-list-4-thumbnail:hover .post-icon {
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+.post-list-4-post-title {
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: 18px;
+    display: block;
+    line-height: 1.7;
+    align-self: start;
+}
+
+@media screen and (max-width: 600px) {
+    .post-list-4-items {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .post-list-4-top-box {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .post-list-4 {
+        padding-bottom: 40px;
+    }
+}

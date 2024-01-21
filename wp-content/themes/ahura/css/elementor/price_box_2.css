@@ -1,0 +1,92 @@
+.price_box_2
+{
+	box-shadow: 0 7px 30px rgb(0 0 0 / 10%);
+	border-radius: 20px;
+	padding: 20px 25px;
+}
+.price_box_2 .header
+{
+	display: flex;
+}
+.price_box_2 .header .icon
+{
+	font-size: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	color: #f55e16;
+	background-color: #fbe8d5;
+}
+.price_box_2 .header .box-data
+{
+	display: flex;
+	flex: auto;
+	justify-content: space-between;
+	padding: 0 10px;
+}
+.price_box_2 .header .box-data .title-section
+{
+	margin: 0 5px;
+}
+.price_box_2 .header .box-data .price-section
+{
+	display: flex;
+	align-items: center;
+	font-size: 20px;
+	gap: 6px;
+}
+.price_box_2 .box-data .price-section .price,
+.price_box_2 .box-data .price-section .currency {
+	color: #35495C;
+	font-size: 20px;
+}
+.price_box_2 .content
+{
+	border-top: 1px solid #d4d4d4;
+	margin-top: 25px;
+	padding-top: 10px;
+}
+.price_box_2 .content ul li
+{
+	padding: 8px 0;
+}
+.price_box_2 .content ul li span:not(.icon)
+{
+	margin: 0 15px;
+}
+.price_box_2 .button-section
+{
+	display: flex;
+	justify-content: center;
+}
+.price_box_2 .button-section a
+{
+	width: 50%;
+	text-align: center;
+    border-radius: 15px;
+    padding: 12px;
+	color: #ffffff;
+	background-color: #f55e16;
+}
+
+.price_box_2 .box-data .title-section .title {
+	color: #35495C;
+	font-size: 20px;
+}
+
+.price_box_2 .box-data .title-section .sub-title {
+	color: #35495C;
+	font-size: 16px;
+}
+
+.price_box_2 .item-title,
+.price_box_2 .content .icon{
+	color: #35495C;
+}
+
+.price_box_2 .header .icon svg {
+	width: 30px;
+}

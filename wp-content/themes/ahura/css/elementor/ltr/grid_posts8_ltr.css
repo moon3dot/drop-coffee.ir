@@ -1,0 +1,19 @@
+.grid-posts-8 .post-metas .post-meta {
+    margin: 0 5px 0 0;
+}
+
+.grid-posts-8 .post-details {
+    text-align: left;
+}
+
+.grid-posts-8 .post-author img {
+    float: left;
+    margin-left: 0;
+    margin-right: 7px;
+}
+
+.grid-posts-8 .post-btn a i {
+    float: right;
+    margin-right: 0;
+    margin-left: 6px;
+}

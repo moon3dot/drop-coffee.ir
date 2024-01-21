@@ -1,0 +1,101 @@
+.ahura_element_price_box_5 {
+    margin-top: 60px;
+
+    background-color: #191d28;
+    border-radius: 30px;
+    padding: 50px 30px 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.ahura_element_price_box_5::before {
+    content: '';
+    position: absolute;
+    width: 160px;
+    height: 80px;
+    background-color: white;
+    border-radius: 100px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ahura_element_price_box_5[btn-text]::after {
+    content: attr(btn-text);
+    position: absolute;
+    width: 125px;
+    height: 55px;
+    background-color: #FFD400;
+    border-radius: 100px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ahura_element_price_box_5 .ah-head {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.ahura_element_price_box_5 .ah-head .ah-icon {
+    font-size: 45px;
+    color: #FFD400;
+}
+
+.ahura_element_price_box_5 .ah-head .ah-title-section {
+    color: white;
+    flex: auto;
+}
+
+.ahura_element_price_box_5 .ah-head .ah-title-section .ah-title {
+    font-size: 20px;
+}
+
+.ahura_element_price_box_5 .ah-head .ah-title-section .ah-subtitle {
+    font-size: 14px;
+}
+
+.ahura_element_price_box_5 .ah-head .ah-price {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ahura_element_price_box_5 .ah-head .ah-price .ah-value {
+    font-size: 30px;
+}
+
+.ahura_element_price_box_5 .ah-items-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ahura_element_price_box_5 .ah-items-section .ah-item{
+    display: flex;
+    gap: 10px;
+}
+.ahura_element_price_box_5 .ah-items-section .ah-item .ah-icon {
+    color: #A1E8AF;
+}
+
+.ahura_element_price_box_5 .ah-items-section .ah-item .ah-text {
+    color: white;
+}
+
+.ahura_element_price_box_5 .ah-button-section a {
+    background-color: #731DD8;
+
+    padding: 10px;
+    display: block;
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+}

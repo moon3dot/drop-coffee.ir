@@ -1,0 +1,161 @@
+.sidebar-widget.sidebar-mode-2 {
+    border-radius: 10px;
+    padding: 9px;
+    opacity: 0;
+    transition: ease .3s;
+}
+
+.sidebar-mode-2 .sidebar-widget-title,
+.sidebar-mode-2 .wp-block-heading {
+    font-size: 20px;
+    padding: 0 4px 4px 4px;
+    border-bottom: 1px solid #f0f0f0;
+    color: #031b4e;
+    margin-bottom: 15px;
+}
+
+html:is(.ahura-dark-theme, .ahura-black-theme) .sidebar-widget.sidebar-mode-2 .sidebar-widget-title,
+html:is(.ahura-dark-theme, .ahura-black-theme) .sidebar-widget.sidebar-mode-2 .wp-block-heading,
+html:is(.ahura-dark-theme, .ahura-black-theme) .sidebar-widget.sidebar-mode-2 :is(input, select, textarea) {
+    border-color: #4c4c4c;
+}
+
+html:is(.ahura-dark-theme, .ahura-black-theme) .sidebar-widget.sidebar-mode-2 ul li {
+    border-color: transparent;
+}
+
+.sidebar-mode-2 .sidebar-widget-title:before,
+.sidebar-mode-2 .wp-block-heading:before {
+    display: none;
+}
+
+.sidebar-mode-2 .widget-content {
+    padding: 0 7px 7px 7px;
+}
+
+.sidebar-mode-2 .ahura-show-posts .ahura-show-posts-thumbnail img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+}
+
+.sidebar-mode-2 .ahura-show-posts-thumbnail {
+    position: relative;
+    width: 25%;
+    margin-left: 10px;
+    min-width: 25%;
+}
+
+.sidebar-mode-2 .ahura-show-posts-box span {
+    text-align: inherit;
+}
+
+.sidebar-mode-2 .ahura-show-posts-author,
+.sidebar-mode-2 .ahura-show-posts-date {
+    opacity: .4;
+    display: inline-block;
+    width: auto;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.sidebar-mode-2 .ahura-show-posts-box-details {
+    display: inline-block;
+}
+
+.sidebar-mode-2 .ahura-show-posts-box span:first-child {
+    display: block;
+    width: 100%;
+}
+
+.sidebar-mode-2 ul li:before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #b1b1b1;
+    margin-left: 10px;
+    border-radius: 50px;
+    transition: ease .15s;
+}
+
+.sidebar-mode-2 ul li:hover:before {
+    border-width: 3px;
+}
+
+.sidebar-mode-2 ul,
+.sidebar-mode-2 .social2-box {
+    padding: 0 7px 7px 7px;
+}
+
+.sidebar-mode-2 > figure {
+    margin: 0;
+}
+
+.sidebar-mode-2 a.tag-cloud-link {
+    font-size: 10px;
+    background-color: #0000000d;
+    padding: 3px 7px;
+    border-radius: 50px;
+    margin: 2px;
+}
+
+.sidebar-mode-2 form[role=search] {
+    margin: 0;
+}
+
+.sidebar-mode-2 form[role=search] label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.sidebar-mode-2.sidebar-widget-padding {
+    padding: 15px;
+}
+
+.sidebar-mode-2 .wc-block-stock-filter ul li:before,
+.sidebar-mode-2 ul[class*="product"] li:before{
+    display: none;
+}
+
+.sidebar .sidebar-widget.sidebar-mode-2 .product_list_widget li a {
+    display: block;
+}
+
+.sidebar .sidebar-widget.sidebar-mode-2 .product_list_widget li {
+    display: block;
+    padding: 10px;
+}
+
+.sidebar-mode-2 .wp-block-woocommerce-price-filter,
+.sidebar-mode-2 .wp-block-woocommerce-stock-filter{
+    padding: 0 15px 15px 15px;
+}
+
+.sidebar-mode-2 .wc-block-components-price-slider {
+    margin: 0;
+}
+
+.sidebar-mode-2 .wc-block-components-price-slider--is-input-inline .wc-block-components-price-slider__controls .wc-block-components-price-slider__amount {
+    min-width: 90px;
+    max-width: 90px;
+    border: none;
+    box-shadow: none;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+html:is(.ahura-dark-theme, .ahura-black-theme) .sidebar-mode-2 .wc-block-components-price-slider--is-input-inline .wc-block-components-price-slider__controls .wc-block-components-price-slider__amount {
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+.sidebar-mode-2 .wc-block-components-price-slider__actions button[type=submit]:not(.wp-block-search__button).wc-block-components-filter-submit-button {
+    border-radius: 10px;
+}
+
+.sidebar-widget.sidebar-mode-2 .wc-block-components-price-slider__range-input-progress {
+    --track-background: linear-gradient(270deg,transparent var(--mw_primary_color),var(--mw_primary_color) 0,var(--mw_primary_color) var(--mw_primary_color),transparent 0) no-repeat 0 100%/100% 100%;
+    --range-color: var(--mw_primary_color);
+    background: var(--mw_primary_color);
+}

@@ -1,0 +1,28 @@
+
+.postbox2 .cat-name {
+    border-right: none;
+    border-left: 4px solid;
+    padding-right: 0;
+    padding-left: 1em;
+}
+
+.postbox2 .cat-more-link {
+    float: right;
+}
+
+.postbox2-2 .postbox2post2 h4 {
+    text-align: left;
+}
+
+.postbox2post1 a.fimage {
+    margin-right: 3%;
+    margin-left: 0;
+}
+
+.postbox2post1 a.fimage {
+    float: left;
+}
+
+.postbox2.postbox2-2 * {
+    direction: ltr;
+}

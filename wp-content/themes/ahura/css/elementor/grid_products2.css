@@ -1,0 +1,228 @@
+.grid-products2-wrap {
+    padding: 15px;
+    border: 1px solid #f0f0f0;
+    border-radius: 16px;
+}
+
+.grid-products2-wrap .products-wrap {
+    display: grid;
+    grid-template-columns: repeat(5,minmax(0,1fr));
+    gap: 1px;
+    background-color: #f0f0f0;
+}
+
+.grid-products2-wrap .box-head {
+    position: relative;
+    margin: 15px 0;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.grid-products2-wrap .box-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+}
+
+.grid-products2-wrap .box-title i,
+.grid-products2-wrap .box-title svg {
+    margin-left: 7px;
+    color: #f10e0e;
+}
+
+.grid-products2-wrap .box-title svg {
+    width: 15px;
+    vertical-align: middle;
+}
+
+.grid-products2-wrap .box-btn {
+    position: absolute;
+    top: 3px;
+    left: auto;
+}
+
+.grid-products2-wrap .box-btn a {
+    font-size: 15px;
+    color: #5A98DC;
+    background-color: #fff;
+    font-weight: 400;
+    border: 1px solid #5A98DC;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.grid-products2-wrap .products-item {
+    height: 100%;
+}
+
+.grid-products2-wrap .product-cover {
+    position: relative;
+}
+
+.grid-products2-wrap .product-cover .fimage {
+    display: inline-block;
+    width: 100%;
+}
+
+.grid-products2-wrap .add-to-cart {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #ef3f55;
+    color: #ef3f55;
+    font-size: 26px;
+    border-radius: 50px;
+    padding-top: 5px;
+}
+
+.grid-products2-wrap img {
+    width: 100%;
+    height: 190px;
+    object-fit: contain;
+}
+
+.grid-products2-wrap .sc-item-content {
+    display: block;
+    background-color: #fff;
+    height: 100%;
+    padding: 13px;
+}
+
+.grid-products2-wrap .sc-items-top {
+    position: relative;
+}
+
+.grid-products2-wrap .sc-items-top,
+.grid-products2-wrap .sc-items-bottom {
+    width: 100%;
+}
+
+.grid-products2-wrap .sc-items-bottom {
+    padding: 0;
+    margin-top: 10px;
+}
+
+
+.grid-products2-wrap .regular_price {
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
+}
+
+.grid-products2-wrap .reg-price-wrap {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+}
+
+.grid-products2-wrap .reg-price-wrap em {
+    font-style: normal;
+    font-size: 11px;
+}
+
+.grid-products2-wrap .sale-percent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    background-color: #ef3f55;
+    color: #fff;
+    width: 26%;
+    border-radius: 50px;
+    padding: 0 5px;
+}
+
+.grid-products2-wrap .sale-price {
+    margin-top: 7px;
+    font-size: 13px;
+    text-align: left;
+    padding-left: 29px;
+    color: #c3c3ce;
+}
+
+.grid-products2-wrap .regular_price.without-sale .reg-price-wrap {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+
+.grid-products2-wrap .sale-progress {
+    width: 100%;
+    height: 4px;
+    background-color: #f1f2f4;
+    margin-top: 8px;
+    border-radius: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+.grid-products2-wrap .sale-progress .percent {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    background-color: #ef3f55;
+    border-radius: 50px;
+}
+
+.grid-products2-wrap .product-labels {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding: 7px;
+    z-index: 2;
+}
+
+.grid-products2-wrap .product-labels span {
+    display: inline-block;
+    font-size: 13px;
+    color: #666;
+    background-color: #f0f0f0;
+    padding: 4px 8px;
+    border-radius: 50px 0 50px 50px;
+}
+
+.grid-products2-wrap .product-labels span.out-stock {
+    color: #fff;
+    background-color: #ef3f55;
+}
+
+.grid-products2-wrap .sc-item-content .product-title {
+    color: #444444;
+}
+
+.grid-products2-wrap .sc-item-content .product-title h3 {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1000px){
+    .grid-products2-wrap .products-wrap {
+        grid-template-columns: repeat(4,minmax(0,1fr));
+    }
+}
+
+@media screen and (max-width: 767px){
+    .grid-products2-wrap .products-wrap {
+        grid-template-columns: repeat(2,minmax(0,1fr));
+    }
+    .grid-products2-wrap .box-btn.ah-bottom-in-mobile {
+        position: relative;
+        margin: 20px auto 30px auto;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .grid-products2-wrap .products-wrap {
+        grid-template-columns: repeat(1,minmax(0,1fr));
+    }
+}

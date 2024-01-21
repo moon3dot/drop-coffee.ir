@@ -1,0 +1,77 @@
+.post-list-3 {
+    width: 100%;
+}
+
+.post-list-3-thumbnail {
+    position: relative;
+}
+
+.post-list-3-thumbnail img {
+    border-radius: 4px;
+}
+
+a.post-list-3-title, .post-list-3-title {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 40px;
+    padding: 30px;
+    font-size: 19px;
+    font-weight: 500;
+    min-width: 350px;
+}
+
+.post-list-3 .metas {
+    margin-top: 7px;
+}
+
+.post-list-3 .metas span {
+    font-size: 15px;
+}
+
+.post-list-3-right .post-list-3-thumbnail {
+    direction: rtl;
+}
+
+.post-list-3-left .post-list-3-thumbnail {
+    direction: ltr;
+}
+
+.post-list-3-right .post-list-3-title {
+    right: 50%;
+}
+
+.post-list-3-left .post-list-3-title {
+    left: 50%;
+}
+
+@media screen and (max-width: 800px) {
+
+    .post-list-3 {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .post-list-3-right .post-list-3-title {
+        width: 80%;
+        left: 0;
+        right: 0;
+        top: unset;
+        margin: 0 auto;
+        bottom: 0;
+        min-width: 0;
+    }
+
+    .post-list-3-left .post-list-3-title {
+        width: 80%;
+        left: 0;
+        right: 0;
+        top: unset;
+        margin: 0 auto;
+        bottom: 0;
+        min-width: 0;
+    }
+}

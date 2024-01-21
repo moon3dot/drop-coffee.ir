@@ -1,0 +1,4 @@
+.grid-posts6 .box-title::before {
+    right: auto;
+    left: 0;
+}

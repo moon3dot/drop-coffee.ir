@@ -1,0 +1,47 @@
+.ahura_element_information_box_10 {
+    border-radius: 30px;
+    padding: 40px 30px;
+
+    background: #0F2027;
+}
+
+.ahura_element_information_box_10 .ah-icon-section {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.ahura_element_information_box_10 .ah-icon-section .ah-icon {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    color: #193038;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    box-sizing: content-box;
+}
+
+.ahura_element_information_box_10 .ah-icon-section .ah-label {
+    color: white;
+}
+
+.ahura_element_information_box_10 .ah-value {
+    color: white;
+    font-size: 90px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.ahura_element_information_box_10 .ah-title {
+    color: white;
+    font-size: 18px;
+}
+
+.ahura_element_information_box_10 .ah-description {
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+}

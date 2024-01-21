@@ -1,0 +1,99 @@
+.shop-category4-wrap .category-list {
+    border: 1px solid #f1f2f4;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.shop-category4-wrap .swiper-slide {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-grow: 1;
+}
+
+.shop-category4-wrap .swiper-slide .term-item:not(:first-child) {
+    border-top: 1px solid #f1f2f4;
+}
+
+.shop-category4-wrap .swiper-slide:not(:first-child) {
+    border-right: 1px solid #f1f2f4;
+}
+
+.shop-category4-wrap .term-item {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 150px;
+}
+
+.shop-category4-wrap .term-item a {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 20px 10px;
+    transition: ease .3s;
+}
+
+.shop-category4-wrap .cat-cover {
+    width: 84px;
+    height: 84px;
+    margin: 0 auto 0 auto;
+    padding: 12px;
+    background-color: #0000000d;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.shop-category4-wrap .cat-cover img {
+    object-fit: contain;
+}
+
+.shop-category4-wrap .cat-title {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #000;
+}
+
+.shop-category4-wrap .swiper-nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 99;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    background: none;
+    background-color: #fff;
+    border: 1px solid #b1b1b1;
+    font-size: 20px;
+    color: #464646;
+    cursor: pointer;
+    transition: ease .3s;
+}
+
+.shop-category4-wrap .swiper-nav-button.swiper-btn-next {
+    right: auto;
+    left: 10px;
+}
+
+.shop-category4-wrap .swiper-button-disabled {
+    opacity: 0;
+}
+
+.shop-carousel5-wrap .box-title svg {
+    width: 17px;
+}

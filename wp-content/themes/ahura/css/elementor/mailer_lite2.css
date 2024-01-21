@@ -1,0 +1,129 @@
+.mailer-lite2 .mailerlite-subscribe-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+.mailer-lite2 .ml-form-input {
+    display: flex;
+    width: auto;
+    position: relative;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-left: auto;
+}
+
+.mailer-lite2 .with-group-fields .ml-form-input {
+    width: 100%;
+}
+
+.mailer-lite2 .with-group-fields .ml-form-input.last-field {
+    width: 83%;
+}
+
+.mailer-lite2 .ml-form-submit {
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.mailer-lite2 .mailerlite-subscribe-form.has-loader button {
+    pointer-events: none;
+    user-select: none;
+    opacity: .8;
+}
+
+.mailer-lite2 .ml-form-submit button {
+    position: relative;
+    width: 100%;
+    padding: 7px 15px;
+    color: #fff;
+    background: #000000;
+    box-shadow: 0 11px 24px -10px #000000b5;
+    min-height: 40px;
+    overflow: hidden;
+    transition: ease .3s;
+}
+
+.mailer-lite2 .ml-form-input input, 
+.mailer-lite2 .ml-form-input textarea {
+    width: 100%;
+    border: none;
+    background-color: #f0f0f0;
+    box-shadow: none;
+    padding-right: 34px;
+    resize: vertical;
+}
+
+.mailer-lite2 .ml-form-input.ml-form-textarea i {
+    height: 34px;
+}
+
+.mailer-lite2 .ml-form-textarea textarea {
+    min-height: 60px;
+}
+
+.mailer-lite2 .ml-form-input.without-icon input {
+    padding: 5px 12px;
+}
+
+.mailer-lite2 .ml-form-input i {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 17px;
+    height: 100%;
+    width: 33px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #464646;
+}
+
+.elementor .elementor-section .mailer-lite2 .ml-form-input.invalid :where(i, input, textarea) {
+    color: #ed1313;
+}
+
+.mailer-lite2 .mailerlite-form-wrap.submit-btn-end .ml-form-input, 
+.mailer-lite2 .mailerlite-form-wrap.submit-btn-end .ml-form-submit {
+    width: 100%;
+}
+
+.mailer-lite2 .mailerlite-form-wrap.submit-btn-end .ml-form-submit button {
+    width: auto;
+    margin-top: 7px;
+}
+
+.mailer-lite2 .line-loader {
+    width: 100%;
+    height: 3px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.15);
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.mailer-lite2 .line-loader::after {
+    content: '';
+    width: 192px;
+    height: 3px;
+    background: #ffa621;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    animation: line_loader 2s linear infinite;
+}
+
+@keyframes line_loader {
+    0% {
+        left: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        left: 100%;
+        transform: translateX(0%);
+    }
+}

@@ -1,0 +1,11 @@
+.colorful_element {
+    text-align: center;
+}
+
+.colorful_element .colorful_title {
+    color: #7918DA;
+}
+
+.colorful_element span {
+    font-size: 20px;
+}

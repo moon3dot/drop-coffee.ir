@@ -1,0 +1,62 @@
+.elementor .services_elem_3 {
+    box-shadow: var(--main_soft_shadow);
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.elementor .services_elem_3 .service_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 30px;
+    transition: all .3s;
+}
+
+.elementor .services_elem_3 .service_item:hover {
+    transform: scale(1.1);
+    background-color: #34aaf0;
+    z-index: 10;
+    box-shadow: 0 7px 30px;
+}
+
+.elementor .services_elem_3 .service_item .icon_wrapper {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.elementor .services_elem_3 .service_item .title {
+    text-align: center;
+}
+
+.elementor .services_elem_3 .service_item .description {
+    color: #aaa;
+    margin-top: 10px
+}
+
+.elementor .services_elem_3 .service_item:hover .icon_wrapper,
+.elementor .services_elem_3 .service_item:hover .title,
+.elementor .services_elem_3 .service_item:hover .description {
+    color: white;
+}
+
+@media only screen and (max-width:600px) {
+    .elementor .services_elem_3 {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width:601px) and (max-width:767px) {
+    .elementor .services_elem_3 {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

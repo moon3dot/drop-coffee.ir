@@ -1,0 +1,92 @@
+.testimonial-carousel-5, .testimonial-carousel-item {
+    position: relative;
+}
+
+.testimonial-carousel-5.testimonial-carousel.has-paginate-progressbar .swiper {
+    padding-top: 40px;
+}
+
+.testimonial-carousel-5.testimonial-carousel.has-navigate {
+    padding: 0 2em;
+}
+
+.testimonial-carousel-5.testimonial-carousel.has-navigate .swiper {
+    position: unset;
+}
+
+.testimonial-carousel-5 .tc-swiper-pagination {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.testimonial-carousel-5 .tc-swiper-pagination.swiper-pagination-bullets span {
+    width: 10px;
+    height: 10px;
+}
+
+.testimonial-carousel-5 .swiper-nav-button {
+    position: absolute;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    z-index: 1;
+    cursor: pointer;
+    font-size: 30px;
+    color: #000;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.testimonial-carousel-5 .swiper-nav-button.tc-swiper-button-next {
+    left: 0;
+    right: unset;
+}
+
+.testimonial-carousel-5 .testimonial-carousel-item-content
+{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: relative;
+    border: 1px solid #f0f0f0;
+    border-radius: 30px;
+}
+.testimonial-carousel-5 .testimonial-carousel-item-content .head
+{
+    display: flex;
+}
+.testimonial-carousel-5 .testimonial-carousel-item-content .icon
+{
+    position: absolute;
+    left: 15px;
+    font-size: 6rem;
+    top: 0;
+}
+.testimonial-carousel-5 .testimonial-carousel-item-content .avatar
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 25%;
+    overflow: hidden;
+}
+.testimonial-carousel-5 .testimonial-carousel-item-content .name
+{
+    align-items: flex-start;
+    margin: 10px;
+    color: #35495C;
+    align-self: start;
+    font-size: 18px;
+}
+.testimonial-carousel-5 .testimonial-carousel-item-content .content
+{
+    margin-top: 15px;
+}
+
+.testimonial-carousel-5 .testimonial-carousel-item-content .content p {
+    text-align: right;
+    color: #35495C;
+    font-size: 16px;
+}

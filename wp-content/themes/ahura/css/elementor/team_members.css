@@ -1,0 +1,287 @@
+.ahura-team-members-element .team-element-tabs ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.ahura-team-members-element .team-tab-content {
+    row-gap: 11rem;
+}
+
+.ahura-team-members-element .team-tab-content > div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ahura-team-members-element .team-element-tabs li {
+    display: inline-block;
+    margin: 0 7px;
+}
+
+.ahura-team-members-element .team-element-tabs li a {
+    display: inline-block;
+    min-width: 200px;
+    border: 1px solid #b7b7b7;
+    border-bottom: 0;
+    padding: 10px;
+    border-radius: 15px 15px 0 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    transition: ease .3s;
+}
+
+.ahura-team-members-element .team-element-tabs li.active a {
+    border-color: transparent;
+    background: rgb(254,196,0);
+    background: linear-gradient(90deg, rgba(254,196,0,1) 0%, rgba(254,215,0,1) 100%);
+    box-shadow: 0 2px 5px #0000002e;
+}
+
+.ahura-team-members-element .team-element-tabs .shadow-line {
+    display: flex;
+    align-items: stretch;
+    margin: 0;
+    height: 1px;
+    line-height: 1.7;
+    color: #fff;
+    background: transparent;
+    direction: ltr;
+}
+
+.ahura-team-members-element .team-element-tabs .shadow-line:before, 
+.ahura-team-members-element .team-element-tabs .shadow-line:after {
+    content: "";
+    flex: 1;
+}
+
+.ahura-team-members-element .team-element-tabs .shadow-line:before {
+    background: linear-gradient(to right, white, #7e7e7e);
+}
+
+.ahura-team-members-element .team-element-tabs .shadow-line:after {
+    background: linear-gradient(to left, white, #7e7e7e);
+}
+
+.ahura-team-members-element .team-sub-tabs {
+    margin: 2rem 0 10rem 0;
+    text-align: center;
+}
+
+.ahura-team-members-element .team-sub-tabs ul.loading,
+.ahura-team-members-element .ahura-pagination.loading a,
+.ahura-team-members-element .ahura-pagination.loading span {
+    pointer-events: none;
+    user-select: none;
+}
+
+.ahura-team-members-element .team-sub-tabs ul.loading li:not(.active) a,
+.ahura-team-members-element .ahura-pagination.loading a:not(.current),
+.ahura-team-members-element .ahura-pagination.loading span:not(.current) {
+    filter: blur(1.4px) grayscale(1);
+}
+
+.ahura-team-members-element .team-sub-tabs li {
+    display: inline-block;
+    margin: 0 7px;
+    transition: ease .3s;
+}
+
+.ahura-team-members-element .team-sub-tabs li a {
+    display: inline-block;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: 2px solid transparent;
+    transition: ease .3s;
+    padding: 5px;
+}
+
+.ahura-team-members-element .team-sub-tabs li.active a {
+    border-color: #fed700;
+    font-weight: 600;
+}
+
+.ahura-team-members-element .hr-centered-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    direction: rtl;
+}
+
+.ahura-team-members-element .hr-centered-text::after,
+.ahura-team-members-element .hr-centered-text::before {
+    content: "";
+    border: none;
+    height: 2px;
+    flex: 1;
+    margin: 0 6px;
+}
+
+.ahura-team-members-element .hr-centered-text:not(:empty)::before {
+    margin-right: 0.25em;
+    background: linear-gradient(to right, #9fa2ff4b, #9fa2ff4b, transparent);
+}
+
+.ahura-team-members-element .hr-centered-text:not(:empty)::after {
+    margin-left: 0.25em;
+    background: linear-gradient(to left, #9fa2ff4b, #9fa2ff4b, transparent);
+}
+
+.ahura-team-members-element .team-tab-content > div:nth-child(4n+4) .hr-centered-text:not(:empty)::before,
+.ahura-team-members-element .team-tab-content > div:nth-child(4n+1) .hr-centered-text:not(:empty)::before,
+.ahura-team-members-element .team-tab-content > div:nth-child(8n+4) .hr-centered-text:not(:empty)::before,
+.ahura-team-members-element .team-tab-content > div:nth-child(8n+9) .hr-centered-text:not(:empty)::before,
+.ahura-team-members-element .team-tab-content > div:nth-child(8n+1) .hr-centered-text:not(:empty)::before,
+.ahura-team-members-element .team-tab-content > div:nth-child(8n+5) .hr-centered-text:not(:empty)::before,
+.ahura-team-members-element .team-tab-content > div:nth-child(4n+8) .hr-centered-text:not(:empty)::before,
+.ahura-team-members-element .team-tab-content > div:nth-child(12n+4) .hr-centered-text:not(:empty)::before {
+    background: linear-gradient(to right, #ffffff4b, #ffffff4b, transparent);
+}
+
+.ahura-team-members-element .team-tab-content > div:nth-child(4n+4) .hr-centered-text:not(:empty)::after,
+.ahura-team-members-element .team-tab-content > div:nth-child(4n+1) .hr-centered-text:not(:empty)::after,
+.ahura-team-members-element .team-tab-content > div:nth-child(8n+4) .hr-centered-text:not(:empty)::after,
+.ahura-team-members-element .team-tab-content > div:nth-child(8n+9) .hr-centered-text:not(:empty)::after,
+.ahura-team-members-element .team-tab-content > div:nth-child(8n+1) .hr-centered-text:not(:empty)::after,
+.ahura-team-members-element .team-tab-content > div:nth-child(8n+5) .hr-centered-text:not(:empty)::after,
+.ahura-team-members-element .team-tab-content > div:nth-child(4n+8) .hr-centered-text:not(:empty)::after,
+.ahura-team-members-element .team-tab-content > div:nth-child(12n+4) .hr-centered-text:not(:empty)::after {
+    background: linear-gradient(to left, #ffffff4b, #ffffff4b, transparent);
+}
+
+.ahura-team-members-element .team-info-box {
+    width: 100%;
+    background: rgb(31,55,108);
+    background: linear-gradient(0deg, rgb(19 41 90) 0%, rgb(12 26 58) 60%);
+    padding: 2.5rem 3.5rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.ahura-team-members-element .team-tab-content > div:nth-child(4n+4) .team-info-box,
+.ahura-team-members-element .team-tab-content > div:nth-child(4n+1) .team-info-box,
+.ahura-team-members-element .team-tab-content > div:nth-child(8n+4) .team-info-box,
+.ahura-team-members-element .team-tab-content > div:nth-child(8n+9) .team-info-box,
+.ahura-team-members-element .team-tab-content > div:nth-child(8n+1) .team-info-box,
+.ahura-team-members-element .team-tab-content > div:nth-child(8n+5) .team-info-box,
+.ahura-team-members-element .team-tab-content > div:nth-child(4n+8) .team-info-box,
+.ahura-team-members-element .team-tab-content > div:nth-child(12n+4) .team-info-box {
+    background: rgb(31,55,108);
+    background: linear-gradient(0deg, rgb(189 160 0) 0%, rgb(62 43 0) 60%);
+}
+
+.ahura-team-members-element .team-box-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fed700;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 15px;
+    z-index: 0;
+    opacity: .2;
+}
+
+.ahura-team-members-element .team-info-box > div {
+    width: 100%;
+    z-index: 1;
+}
+
+.ahura-team-members-element .team-avatar img {
+    width: 170px;
+    border-radius: 75px;
+    border: 6px solid #fff;
+}
+
+.ahura-team-members-element .team-avatar {
+    margin: -144px 0 20px 0;
+}
+
+.ahura-team-members-element .team-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fed700;
+}
+
+.ahura-team-members-element .team-post {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.ahura-team-members-element .team-video-link {
+    display: flex;
+    align-items: center;
+    place-content: center;
+    width: 65px;
+    height: 65px;
+    margin: 10px auto 10px auto;
+    border: 1px solid #ffffff4a;
+    border-radius: 24px;
+}
+
+.ahura-team-members-element .team-video-link svg {
+    max-width: 42px;
+    fill: #fff;
+}
+
+.ahura-team-members-element .main-details {
+    margin: 10px 0 5px 0;
+}
+
+.ahura-team-members-element .main-details li {
+    display: inline-block;
+    margin: 7px;
+    font-size: 15px;
+}
+
+.ahura-team-members-element .main-details li i {
+    vertical-align: middle;
+    margin: 0 3px;
+}
+
+.ahura-team-members-element .team-bio {
+    margin-top: 1rem;
+}
+
+.ahura-team-members-element .team-bio, 
+.ahura-team-members-element .team-bio p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.ahura-team-members-element .ahura-pagination {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.ahura-team-members-element .ahura-pagination span, 
+.ahura-team-members-element .ahura-pagination a {
+    display: inline-block;
+    min-width: 43px;
+    min-height: 43px;
+    margin: 5px;
+    padding: 9px 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px #0000003b;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    transition: ease .3s;
+}
+
+.ahura-team-members-element .ahura-pagination span.current, 
+.ahura-team-members-element .ahura-pagination span:hover, 
+.ahura-team-members-element .ahura-pagination a:hover {
+    background-color: #000;
+    color: #fff;
+}

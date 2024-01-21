@@ -1,0 +1,4 @@
+.product-box-carousel-1 .pbc-button-prev,
+.product-box-carousel-1 .pbc-button-next {
+    transform: rotateY(180deg);
+}

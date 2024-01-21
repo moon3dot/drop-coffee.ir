@@ -1,0 +1,11 @@
+.grid-posts-10 .ahura-pagination .prev i,
+.grid-posts-10 .ahura-pagination .next i {
+    transform: rotateY(180deg);
+}
+
+.grid-posts-10 .posts-filter .select-box:after {
+    left: auto;
+    right: 12px;
+    border-top: none;
+    border-bottom: 1px solid #e1e1e1;
+}

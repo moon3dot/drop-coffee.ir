@@ -1,0 +1,12 @@
+.grid-post2 {
+    direction: ltr;
+}
+
+.grid-post2 .grid-information {
+    text-align: left;
+}
+
+.grid-post2 .grid-information span {
+    margin-left: 0;
+    margin-right: 10px;
+}

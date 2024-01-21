@@ -1,0 +1,107 @@
+.icon-box-4-wrap {
+    background-color: #354ac4;
+    border-radius: 16px;
+    padding: 12px;
+}
+
+.icon-box-4-wrap .box-details {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.icon-box-4-wrap .box-title {
+    width: 30%;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.icon-box-4-wrap .icons-box {
+    width: calc(100% - 30%);
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    gap: 5px;
+}
+
+.icon-box-4-wrap .box-details.without-title .icons-box {
+    width: 100%;
+}
+
+.icon-box-4-wrap .icons-box.ah-cols-1 {
+    grid-template-columns: repeat(1,minmax(0,1fr));
+}
+
+.icon-box-4-wrap .icons-box.ah-cols-2 {
+    grid-template-columns: repeat(2,minmax(0,1fr));
+}
+
+.icon-box-4-wrap .icons-box.ah-cols-4 {
+    grid-template-columns: repeat(4,minmax(0,1fr));
+}
+
+.icon-box-4-wrap .icons-box.ah-cols-5 {
+    grid-template-columns: repeat(5,minmax(0,1fr));
+}
+
+.icon-box-4-wrap .icon-box {
+    background-color: #fff;
+    padding: 7px;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    text-align: right;
+    background-image: url(../../img/wheel-spinner.webp);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.icon-box-4-wrap .icon-box i {
+    color: #354ac4;
+    vertical-align: middle;
+    margin-left: 7px;
+}
+
+.icon-box-4-wrap .icon-box svg {
+    vertical-align: middle;
+    width: 15px;
+}
+
+.icon-box-4-wrap .icons-box a:first-child .icon-box {
+    border-radius: 0 7px 7px 0;
+}
+
+.icon-box-4-wrap .icons-box a:last-child .icon-box {
+    border-radius: 7px 0 0 7px;
+}
+
+.icon-box-4-wrap .icons-box.ic-1 .icon-box {
+    border-radius: 7px;
+}
+
+.icon-box-4-wrap .icon-box-content {
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px){
+    .icon-box-4-wrap .box-title {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .icon-box-4-wrap .icons-box {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .icon-box-4-wrap .icons-box {
+        grid-template-columns: repeat(1,minmax(0,1fr));
+    }
+
+    .icon-box-4-wrap .icon-box {
+        border-radius: 7px;
+    }
+}

@@ -1,0 +1,86 @@
+.siteside-2 .siteside-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0b255473;
+    z-index: 5;
+}
+
+.open-mm-left .siteside-2 .topmenu-wrap {
+    right: auto;
+    left: 0;
+}
+
+.siteside-2 span.siteside-close {
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #464646;
+    box-shadow: 0 5px 15px #00000052;
+}
+
+div.siteside-2 {
+    background-color: transparent;
+    padding: 0;
+    width: 100%;
+}
+
+div.siteside-2 .topmenu-wrap {
+    position: absolute;
+    top: 0;
+    width: 75%;
+    z-index: 10;
+    background-color: #fff;
+    height: 100%;
+    padding: 10px;
+    box-shadow: 0 0 15px #0000004f;
+}
+
+div.siteside-2 li a,
+div.siteside-2 li.current-menu-item a {
+    border: none;
+    background-color: transparent;
+    color: #333333;
+    border-radius: 7px;
+}
+
+div.siteside-2 li {
+    margin-bottom: 5px;
+}
+
+div.siteside-2 li a:hover,
+div.siteside-2 li.current-menu-item a:hover,
+div.siteside-2 ul li.menu-item a:hover {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.siteside-2 .open-mobile-submenu,
+div.siteside-2 li.menu-item:hover > a {
+    color: #333;
+}
+
+.siteside-2 li ul,
+.siteside-2 li ul li ul {
+    background-color: transparent;
+    box-shadow: none;
+    border: 1px solid #f0f0f0;
+    border-radius: 7px;
+    margin: 6px 0;
+}
+
+.siteside-2 li ul li {
+    margin: 3px 0;
+}
+
+.siteside-2 li ul li a {
+    border-radius: 7px;
+}

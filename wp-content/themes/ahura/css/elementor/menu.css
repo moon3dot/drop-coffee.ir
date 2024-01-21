@@ -1,0 +1,16 @@
+.menu-element-1.nav-mode-vertical .menu-wrapper > div > ul > li {
+    width: 100%;
+}
+
+.menu-element-1 ul li img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-left: 7px;
+}
+
+@media screen and (max-width: 1000px) {
+    .menu-element-1 .menu-wrapper {
+        display: none;
+    }
+}

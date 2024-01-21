@@ -1,0 +1,44 @@
+.header-template-2 .header-side-menu-btn {
+    float: left;
+}
+
+.header-template-2.header-ltr .header-section-content .row,
+.header-template-2.header-ltr .header-bottom-content,
+.header-template-2.header-ltr .header-bottom-content .header-menus {
+    flex-direction: unset;
+}
+
+.header-template-2 .header-search-form button {
+    left: auto;
+    right: 0;
+}
+
+.header-template-2 .header-search-form .spin-loader {
+    left: auto;
+    right: 54px;
+}
+
+.header-template-2 .header-buttons a.h-logout-btn {
+    right: -5px;
+}
+
+.header-template-2 .header-buttons .h-user-login-btn.with-name span {
+    margin-left: 10px;
+}
+
+.header-template-2.header-ltr .header-buttons,
+.header-template-2 .logo-left .header-buttons {
+    justify-content: end;
+    flex-direction: unset;
+}
+
+.header-close-notice {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.header-template-2 .side-icons .header-buttons a.h-logout-btn {
+    right: auto;
+    left: -10px;
+}
+

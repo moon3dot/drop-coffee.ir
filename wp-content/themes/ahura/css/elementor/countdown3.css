@@ -1,0 +1,91 @@
+.countdown3 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #4132c4 0%, #374dcc 100%);
+    border-radius: 17px 17px 17px 17px;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0 0 17px 0 rgba(0, 0, 0, .37);
+}
+
+.countdown3 div {
+    color: #fff;
+}
+
+.countdown3 > div {
+    width: 100%;
+    color: #fff;
+}
+
+body:not([class*="elementor-editor"]) .countdown3 > div {
+    display: none;
+}
+
+.countdown3 .title {
+    font-size: 18px;
+    margin: 0 0 14px 0;
+}
+
+
+.countdown3 .counter .countdown-tpl {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.countdown3 .counter .countdown-tpl .time-down {
+    width: 25%;
+}
+
+.countdown3 .num {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.countdown3 .counter .end-content {
+    display: none;
+    width: 100%;
+}
+
+.countdown3 .date {
+    display: block;
+    font-size: 15px;
+    margin: 0;
+}
+
+.countdown3 .date div {
+    display: inline-block;
+}
+
+.countdown3 .buttons {
+    margin: 18px 0 0 0;
+}
+
+.countdown3 .buttons a {
+    display: block;
+    transition: ease all .3s;
+    color: #384bcb;
+    background-color: #fff;
+    font-size: 15px;
+    border-radius: 15px;
+    Padding: 10px;
+}
+
+.countdown3 .divider-wrap {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.countdown3 .divider-wrap .divider {
+    text-align: center;
+    background-color: #FFFFFF36;
+    width: 100%;
+    height: 2px;
+    margin: 25px 0;
+}

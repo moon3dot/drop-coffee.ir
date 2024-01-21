@@ -1,0 +1,17 @@
+.postbox4 * {
+    direction: ltr;
+}
+
+.postbox4 .cat-name {
+    padding-left: 1em;
+    border-right: none;
+    border-left: 4px solid;
+}
+
+.postbox4 .cat-name {
+    float: left;
+}
+
+.postbox4 .cat-more-link {
+    float: right;
+}

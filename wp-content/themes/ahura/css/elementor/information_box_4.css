@@ -1,0 +1,62 @@
+.ahura_element_information_box_4
+{
+	position: relative;
+	padding: 25px;
+    min-height: 160px;
+    background-color: #319D7C;
+}
+.ahura_element_information_box_4::after
+{
+	content: '';
+	pointer-events: none;
+    display: block;
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 3px solid white;
+    transform: translate(-50%, -50%);
+}
+.ahura_element_information_box_4 .btn-wrapper
+{
+	display: flex;
+    justify-content: center;
+	margin-top: 20px;
+}
+.ahura_element_information_box_4 .btn-wrapper a
+{
+    width: 35%;
+	border: 2px solid;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    color: #ffffff;
+    transition: ease .2s;
+}
+.ahura_element_information_box_4 .btn-wrapper:hover a
+{
+	box-sizing: content-box;
+}
+.ahura_element_information_box_4 .btn-wrapper a i
+{
+	font-size: 14px;
+}
+
+.ahura_element_information_box_4 .title {
+    text-align: center;
+}
+
+.ahura_element_information_box_4 .title span {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.ahura_element_information_box_4 .description p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+}

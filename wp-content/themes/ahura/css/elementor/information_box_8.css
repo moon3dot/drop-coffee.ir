@@ -1,0 +1,101 @@
+.information-box-8 {
+    text-align: center;
+}
+
+.information-box-8 .info {
+    width: 100%;
+    text-align: center;
+}
+
+.information-box-8 .box-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 54px;
+    overflow: hidden;
+}
+
+.information-box-8 .triangle {
+    user-select: none;
+    pointer-events: none;
+}
+
+.information-box-8 .triangle svg {
+    width: 200px;
+    transition: ease .3s;
+    fill: #F0F0F0;
+}
+
+.information-box-8.has-back .front,
+.information-box-8.has-back .back {
+    transition: ease all .3s;
+}
+
+.information-box-8.has-back .back {
+    position: absolute;
+    top: 34%;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0 54px;
+    transform: rotateX(90deg);
+    pointer-events: none;
+}
+
+.information-box-8.has-back:hover .front {
+    display: none;
+    transform: rotateX(90deg);
+}
+
+.information-box-8.has-back:hover .back {
+    display: block;
+    transform: rotateX(0);
+    pointer-events: all;
+}
+
+.information-box-8:hover .triangle svg {
+    fill: #354AC4;
+}
+
+.information-box-8:hover .icon,
+.information-box-8:hover .title,
+.information-box-8:hover a {
+    color: #fff;
+}
+
+.information-box-8 .icon {
+    font-size: 1.4em;
+}
+
+.information-box-8 .title {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.information-box-8 .des {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.information-box-8 .back a {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.information-box-8 .back a svg {
+    width: 20px;
+    vertical-align: middle;
+    margin: 0 3px;
+}
+
+.information-box-8 .icon svg {
+    width: 50px;
+    height: 40px;
+}

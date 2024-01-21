@@ -1,0 +1,37 @@
+.ahura_element_banner_box_5{
+    background-color: #BDD8FF47;
+    border-radius: 10px;
+}
+.ahura_element_banner_box_5.blur
+{
+    backdrop-filter: blur(5px);
+}
+.ahura_element_banner_box_5 .image
+{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+.ahura_element_banner_box_5 .image img {
+    width: 97%;
+    border-radius: 10px;
+}
+.ahura_element_banner_box_5 .data
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 10px 0;
+    background-color: #9648E3;
+    border-radius: 10px;
+}
+.ahura_element_banner_box_5 .icon
+{
+    position: absolute;
+    left: 15px;
+    color: #ffffff;
+}
+
+.ahura_element_banner_box_5 .data .title {
+    color: #fff;
+}

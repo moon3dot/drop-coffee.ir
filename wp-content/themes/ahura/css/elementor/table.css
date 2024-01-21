@@ -1,0 +1,17 @@
+.ahura-table table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.ahura-table table td,
+.ahura-table table th {
+    border: 1px solid #dddddd;
+}
+
+.ahura-table table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #ffffff;
+    color: #000000;
+}

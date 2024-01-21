@@ -1,0 +1,92 @@
+.elementor .services_elem_2
+{
+	background-color: #fff;
+	box-shadow: var(--main_soft_shadow);
+	padding: 25px;
+	border-radius: 10px;
+}
+.elementor .services_elem_2 .service_item
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 30px;
+}
+.elementor .services_elem_2 .service_item .icon_wrapper
+{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+}
+.elementor .services_elem_2 .service_item .service_icon
+{
+	width: 70px;
+	height: 70px;
+	font-size: 5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.elementor .services_elem_2 .service_item .ah_title
+{
+	margin: 20px 0 10px;
+    font-size: 2rem;
+}
+.elementor .services_elem_2 .ah_bold .service_item .box_overlay
+{
+	border-radius: 15px;
+	background-color: #fd5e5e;
+	opacity: .9;
+	top: 10%;
+	bottom: 10%;
+	right: 0;
+	left: 0;
+	position: absolute;
+}
+.elementor .services_elem_2 .ah_bold .service_item .icon_wrapper,
+.elementor .services_elem_2 .ah_bold .service_item .ah_title,
+.elementor .services_elem_2 .ah_bold .service_item .description,
+.elementor .services_elem_2 .ah_bold .service_item .ah-button
+{
+	z-index: 9;
+}
+.elementor .services_elem_2 .ah_bold .service_item .description
+{
+	font-size: 18px;
+}
+
+.services_elem_2 .ah-button {
+	display: inline-block;
+	margin-top: 15px;
+	border: 1px solid #c54c4c;
+	padding: 5px 15px;
+	border-radius: 5px;
+	color: #3c0000;
+}
+
+@media screen and (max-width: 767px)
+{
+    .elementor .services_elem_2 .service_item_wrapper.ah_bold
+	{
+		margin-bottom: 20px;
+	}
+	.elementor .services_elem_2 .ah_bold .service_item .box_overlay
+	{
+		bottom: 0;
+	}
+}
+@media screen and (min-width: 768px)
+{
+    .elementor .services_elem_2 .ah_bold .service_item
+	{
+		position: absolute;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		padding: 0 20px 23%;
+	}
+}

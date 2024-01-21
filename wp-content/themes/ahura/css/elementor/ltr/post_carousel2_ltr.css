@@ -1,0 +1,9 @@
+.carousel2post a span {
+    left: 20px;
+    right: auto;
+}
+
+.carousel2post .details {
+    direction: ltr;
+    text-align: left;
+}

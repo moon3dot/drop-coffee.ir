@@ -1,0 +1,62 @@
+.ahura_element_card_box_2
+{
+    background-color: #F2E899;
+    padding: 20px 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.ahura_element_card_box_2 .ah-line
+{
+    border: none;
+    border-top: 1px solid #CFC98F;
+}
+.ahura_element_card_box_2 .ah-fit-content
+{
+    width: fit-content;
+}
+.ahura_element_card_box_2 .ah-pre-title
+{
+    color: #88856b;
+}
+.ahura_element_card_box_2 .ah-title
+{
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.ahura_element_card_box_2 .ah-description
+{
+    color: black;
+    font-size: 14px;
+}
+.ahura_element_card_box_2 .ah-pre-value
+{
+    color: #88856b;
+    font-size: 14px;
+}
+
+.ahura_element_card_box_2 .ah-value-section
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ahura_element_card_box_2 .ah-value-section .ah-value
+{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+.ahura_element_card_box_2 .ah-value-section .ah-icon
+{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

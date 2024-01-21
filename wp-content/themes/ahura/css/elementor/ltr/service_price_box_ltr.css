@@ -1,0 +1,7 @@
+.service_price_item.type-2 .service_items {
+    text-align: left;
+}
+
+.service_price_item .service_items li {
+    margin: 3px 0;
+}

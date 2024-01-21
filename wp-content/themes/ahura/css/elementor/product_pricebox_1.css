@@ -1,0 +1,100 @@
+.product_pricebox_1 {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+}
+
+.product_pricebox_1 .title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff071b;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.product_pricebox_1 .price-line {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    position: absolute;
+    width: 80%;
+    padding: 20px;
+    left: 0;
+    border-radius: 0 40px 40px 0;
+    justify-content: space-between;
+    color: #ffffff;
+    background-color: transparent;
+    background-image: linear-gradient(110deg, #fe248b 0%, #ff071b 100%);
+}
+
+.product_pricebox_1 .price_items ul li {
+    padding: 3px;
+}
+
+.product_pricebox_1 .price_items ul li::before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.product_pricebox_1 a.btn-wrapper {
+    color: white;
+    display: block;
+    text-align: center;
+    border-radius: 30px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.product_pricebox_1 .price-line .woocommerce-Price-currencySymbol {
+    position: absolute;
+    left: 20px;
+    font-size: 1.3rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.product_pricebox_1 .product_pricebox_box_wrapper .value {
+    font-size: 30px;
+    font-weight: bold;
+	padding: 5px 15px;
+}
+
+.product_pricebox_1 .product_pricebox_box_wrapper .price_items {
+	padding: 15px 30px;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.product_pricebox_1 .product_pricebox_box_wrapper .btn-wrapper {
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.product_pricebox_1 .product_pricebox_box_wrapper .btn-wrapper a {
+	padding: 15px;
+	margin: 10px;
+	width: 100%;
+	display: block;
+	text-align: center;
+    border-radius: 30px;
+    color: #ffffff;
+    background-image: linear-gradient(110deg, #fe248b 0%, #ff071b 100%);
+}
+
+.product_pricebox_1 .without-des .btn-wrapper {
+    margin-top: 120px;
+}
+
+.product_pricebox_1 .price-line span {
+    font-size: 28px;
+}

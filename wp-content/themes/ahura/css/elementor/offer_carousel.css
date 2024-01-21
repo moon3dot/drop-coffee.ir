@@ -1,0 +1,182 @@
+.offer-carousel-1 {
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 5px 21px rgba(0, 0, 0, .10);
+    border-radius: 7px;
+}
+
+.offer-carousel-1 .product {
+    background-color: #fff;
+    border: 1px solid #f0f0f0;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.offer-carousel-1 .product-cover {
+    width: 100%;
+    position: relative;
+    background-color: rgba(0, 0, 0 , .07);
+    border-bottom: 1px solid rgba(0, 0, 0 , .09);
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.offer-carousel-1 .product-cover a {
+    display: inline-block;
+}
+
+.offer-carousel-1 .product-cover img {
+    max-width: 100%;
+    height: 300px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.offer-carousel-1 .product-label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    width: 100%;
+    padding: 10px;
+    text-align: right;
+}
+
+.offer-carousel-1 .product-label span {
+    display: inline-block;
+    margin-left: 7px;
+}
+
+.offer-carousel-1 .product-label .sale-percent {
+    background-color: #eb0000;
+    color: #fff;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 15px;
+    padding-top: 10px;
+    box-shadow: 0 3px 10px rgba(235, 0, 0, .65);
+}
+
+.offer-carousel-1 .product-title, 
+.offer-carousel-1 .product-details {
+    padding: 10px;
+}
+
+.offer-carousel-1 .product-title {
+    height: 70px;
+    line-height: 1.7;
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+}
+
+.offer-carousel-1 .product-title h2 {
+    font-size: 19px;
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+}
+
+.offer-carousel-1 .product-details {
+    text-align: center;
+    line-height: 1.3;
+}
+
+.offer-carousel-1 .price-left-position{
+    display: inline-block;
+}
+
+.offer-carousel-1 .product .price-wrap p {
+    display: none;
+}
+
+.offer-carousel-1 .product .price-wrap .price {
+    display: block;
+    color: #a9a9a9;
+}
+
+.offer-carousel-1 .product .price .amount, 
+.offer-carousel-1 .product .price ins bdi {
+    font-size: 22px;
+    color: #ed0000;
+}
+
+.offer-carousel-1 .product .price del {
+    display: block;
+    margin-bottom: 7px;
+}
+
+.offer-carousel-1 .product .price del,
+.offer-carousel-1 .product .price del bdi {
+    font-weight: 300;
+    font-size: 20px;
+    color: #cbcbcb;
+}
+
+.offer-carousel-1 .price-left-position *:not(span) {
+    display: inline;
+}
+
+.offer-carousel-1.not-dis .product .price del {
+    display: none;
+}
+
+.offer-carousel-1 .product-discount-timer-wrap {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    color: #333;
+}
+
+.offer-carousel-1 .product-discount-timer-wrap .time-end {
+    font-size: 15px;
+}
+
+.offer-carousel-1 .product-discount-timer-wrap .countdown-time > div {
+    display: inline-block;
+    margin: 0 2px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #333;
+}
+
+.offer-carousel-1 .product-discount-timer-wrap .countdown-time > div .num {
+    margin: 0 3px;
+    color: #4ebd47;
+}
+
+.offer-carousel-1.swiper-fade .swiper-slide .product {
+    opacity: 0;
+}
+
+.offer-carousel-1.swiper-fade .swiper-slide-active .product {
+    opacity: 1;
+}
+
+.offer-carousel-1 .slider-duration-progress {
+    display: inline-block;
+    width: 100%;
+    padding: 7px;
+    margin: 0;
+    float: right;
+}
+
+.offer-carousel-1.only-dis .slider-duration-progress {
+    padding: 0;
+    height: 4px;
+}
+
+.offer-carousel-1 .slider-duration-line {
+    float: right;
+    display: inline-block;
+    width: 0%;
+    border-radius: 50px;
+    height: 4px;
+    background-color: #ed0000;
+}
+
+.offer-carousel-1.only-dis .slider-duration-line {
+    border-radius: 0;
+}

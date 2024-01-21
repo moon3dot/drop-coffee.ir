@@ -1,0 +1,133 @@
+.elementor-widget-container .postbox4 {
+    margin-top: 0;
+}
+
+.postbox4 .flexed {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: max-content;
+}
+
+.postbox4 div.col-md-3,
+.postbox4 div.col-md-4,
+.postbox4 div.col-lg-3 {
+    margin: 1em 0;
+}
+
+.postbox4 article {
+    width: 100%;
+    border-radius: 20px;
+    background-color: #fff;
+    float: right;
+    padding: 10px;
+    transition-duration: 0.2s;
+    box-shadow: var(--main_soft_shadow);
+    position: relative;
+}
+
+.postbox4 article.post-item-box.without-excerpt h3 {
+    border: none;
+}
+
+.postbox4 article .fimage img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.postbox4 article h3 {
+    color: #555;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin: 15px 15%;
+}
+
+.postbox4 article p {
+    color: #6b7074;
+    font-weight: 200;
+    padding: 0 10%;
+    min-height: 110px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.postbox4 .excerpt.has_margin {
+    margin-bottom: 80px;
+}
+
+.postbox4 article .post-author {
+    float: right;
+    line-height: 38px;
+    font-size: 12px;
+    font-weight: 100;
+    margin: 0 15px 10px 0;
+}
+
+.postbox4 article .post-author img {
+    width: 38px;
+    height: 38px;
+    margin-left: 8px;
+    float: right;
+    border-radius: 100%;
+}
+
+.postbox4 article .post-meta {
+    line-height: 38px;
+    font-size: 12px;
+    float: right;
+    margin: 0 10px;
+    font-weight: 100;
+    color: #838383;
+}
+
+.postbox4 .cat-name {
+    width: 89%;
+    line-height: 40px;
+    display: inline-block;
+    border-right: 4px solid;
+    padding-right: 1em;
+}
+
+.postbox4 .cat-more-link {
+    text-align: center;
+    width: fit-content;
+    float: left;
+    padding: 5px 15px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1001px) {
+    .postbox4 .cat-name {
+        width: 70%;
+    }
+
+    .postbox4 .cat-more-link {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .postbox4 article {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .postbox4 article {
+        width: 98%;
+        float: none;
+    }
+
+    .postbox4 .cat-name {
+        width: 100%;
+    }
+
+    .postbox4 .cat-more-link {
+        width: 100%;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,51 @@
+.ahura_customize_image_radio_box_title
+{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.ahura_customize_image_radio_box_wrapper
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+    grid-gap: 10px;
+}
+.ahura_customize_image_radio_box input[type=radio]
+{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+}
+.ahura_customize_image_radio_box .content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.ahura_customize_image_radio_box .content .preview img
+{
+    width: 90px;
+    border: 1px solid #c7c7c7;
+    border-radius: 4px;
+}
+.ahura_customize_image_radio_box input[type=radio]:checked ~ span.content::after
+{
+    content: "\f147";
+    font-family: 'dashicons';
+    font-size: 15px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    color: white;
+    background-color: #1e73be;
+    border: 2px solid rgba(255,255,255,.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 80px;
+    right: 0;
+}

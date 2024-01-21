@@ -1,0 +1,33 @@
+.ahura_customize_simple_checkbox_wrapper input[type=checkbox]
+{
+    display: none;
+}
+.ahura_customize_simple_checkbox_wrapper .label
+{
+    display: flex;
+}
+.ahura_customize_simple_checkbox_wrapper .label::before
+{
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #a1a1a1;
+    border-radius: 3px;
+}
+.ahura_customize_simple_checkbox_wrapper .label_text
+{
+    margin: 0 10px;
+}
+.ahura_customize_simple_checkbox_wrapper input[type=checkbox]:checked ~ .label::before
+{
+    content: "\f147";
+    font-family: 'dashicons';
+    background-color: #1e73be;
+    color: white;
+    border-color: #1e73be;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

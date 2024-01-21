@@ -1,0 +1,52 @@
+.elementor .notice_box
+{
+	background-color: #fd5e5e;
+	color: #fd5e5e;
+	border-radius: 100px;
+	display: flex;
+	padding: 20px 35px;
+	box-shadow: var(--auto_soft_shadow);
+}
+.elementor .notice_box .text
+{
+	flex: auto;
+	color: white;
+	display: flex;
+	align-self: center;
+	font-size: 1.2rem;
+}
+.elementor .notice_box .btn
+{
+	background-color: #fff;
+	color: #fd5e5e;
+	border-radius: 100px;
+	padding: 8px 25px;
+	font-size: 1.3rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+@media only screen and (max-width:600px)
+{
+    .elementor .notice_box
+    {
+      flex-direction: column;
+    }
+    .elementor .notice_box .text,
+    .elementor .notice_box .btn
+    {
+      align-self: center;
+    }
+    .elementor .notice_box .btn
+    {
+      margin-top: 5px;
+    }
+}
+@media screen and (max-width: 767px)
+{
+    .elementor .notice_box,
+	.elementor .notice_box .btn
+	{
+		border-radius: 10px;
+	}
+}

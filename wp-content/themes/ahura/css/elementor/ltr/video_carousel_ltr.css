@@ -1,0 +1,5 @@
+.video-carousel .des .arrow-icon {
+    left: auto;
+    right: 7px;
+    transform: rotateY(180deg);
+}

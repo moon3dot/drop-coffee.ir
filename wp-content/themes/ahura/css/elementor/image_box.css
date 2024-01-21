@@ -1,0 +1,32 @@
+.ahura_image_box
+{
+	padding: 20px 10px;
+	border-radius: 10px;
+	background-color: #EADD9E;
+	height: 300px;
+	background-image: url("../../img/footer-bg.png");
+	background-size: cover;
+	background-position: bottom center;
+}
+.ahura_image_box .right
+{
+	text-align: right;
+}
+.ahura_image_box .center
+{
+	text-align: center;
+}
+.ahura_image_box .left
+{
+	text-align: left;
+}
+
+.ahura_image_box .title {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.ahura_image_box .sub_title {
+	font-size: 17px;
+}
+

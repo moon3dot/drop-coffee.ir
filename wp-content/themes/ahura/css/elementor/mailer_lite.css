@@ -1,0 +1,38 @@
+.mailer_lite
+{
+	background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 7px 30px rgba(0 0 0 / 10%);
+}
+.mailer_lite input {
+	width: 100%;
+}
+.mailer_lite .ml-error input{
+	border-color: red;
+}
+.mailer_lite .ml-error .label-description,
+.mailer_lite .ml-error .label-description p,
+.mailer_lite .ml-error .label-description p a,.ml-error label:first-child{
+	color: red;
+}
+.mailer_lite .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow.ml-error .label-description p,
+.mailer_lite .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow.ml-error .label-description p:first-letter{
+	color: red;
+}
+.mailer_lite .ml-form-embedBody p,
+.mailer_lite .ml-form-successBody p
+{
+	margin-bottom: 15px;
+}
+.mailer_lite .ml-form-embedBody .ml-block-form input,
+.mailer_lite .ml-form-embedBody .ml-block-form textarea,
+.mailer_lite .ml-form-embedBody .ml-form-embedSubmit button
+{
+	margin-bottom: 10px;
+}
+.mailer_lite .ml-form-embedBody .ml-form-embedSubmit button {
+	color: #35495C;
+	background-color: #fcc52f;
+	font-size: 13px;
+}

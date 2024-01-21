@@ -1,0 +1,83 @@
+[class*="aicon"],
+[class^="aicon"] {
+    font-size: 100px;
+}
+
+[class*="aicon-svg"]:before,
+[class^="aicon-svg"]:before {
+    content: '';
+    display: block;
+    width: 47px;
+    height: 33px;
+    object-fit: contain;
+    margin: 0 auto;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+[class*="ahura-widget-icon"]:after,
+[class^="ahura-widget-icon"]:after{
+    content: 'AHURA';
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    color: #556068;
+    font-size: 9px;
+    border: 1px solid #dedede;
+    font-weight: 400;
+    padding: 2px 3px;
+    line-height: 10px;
+    display: inline-block;
+    border-radius: 2px;
+    font-family: "Open Sans", Roboto, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+.elementor-editor-dark-mode [class*="ahura-widget-icon"]:after,
+.elementor-editor-dark-mode [class^="ahura-widget-icon"]:after{
+    color: #dedede;
+}
+
+.elementor-element-wrapper:hover [class*="ahura-widget-icon"]:after,
+.elementor-element-wrapper:hover [class^="ahura-widget-icon"]:after{
+    color: #5bc0de;
+}
+
+.elementor-panel .elementor-tab-control-ahura-element-visibility a:before,
+.elementor-panel .elementor-tab-control-ahura-element-visibility span:before {
+    content: '\e8ac';
+    font-family: eicons;
+}
+
+div[id*="elementor-panel-category-ahura"] .elementor-element:before {
+    content: "اهورا";
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: transparent;
+    color: #bdbdbd;
+    border: 1px solid #bdbdbd;
+    font-size: 10px;
+    line-height: 1.7;
+    padding: 1px 6px 0 6px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    transition: ease .2s;
+}
+
+body:not(.rtl) div[id*="elementor-panel-category-ahura"] .elementor-element:before {
+    content: "AHURA";
+    right: auto;
+    left: 5px;
+    padding: 3px 3px 0 3px;
+    line-height: 1.5;
+}
+
+div[id*="elementor-panel-category-ahura"] .elementor-element:hover:before {
+    color: #354ac4;
+    border-color: #354ac4;
+}

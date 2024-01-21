@@ -1,0 +1,19 @@
+.shop-carousel3 .carousel-details .mw_add_to_cart span, 
+.shop-carousel3 .carousel-details .mw_add_to_cart .fa {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.shop-carousel3 .carousel-details .carousel-item-title:before {
+    content: "\f105";
+}
+
+.shop-carousel3 .row {
+    flex-flow: row-reverse;
+}
+
+@media screen and (max-width: 767px) {
+    .shop-carousel3 .row {
+        flex-flow: column;
+    }
+}

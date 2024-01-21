@@ -1,0 +1,144 @@
+.banner-box1
+{
+	border-radius: 10px;
+	display: flex;
+	min-height: 500px;
+	margin: 20px 0;
+}
+.banner-box1 .image_section
+{
+	width: 40%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-height: 550px;
+}
+.banner-box1 .image_section .top_image
+{
+	width: 250px;
+	height: 250px;
+	border-radius: 20px;
+	box-shadow: var(--main_soft_shadow);
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.banner-box1 .image_section .title_box
+{
+	width: 250px;
+	height: 250px;
+	border-radius: 20px;
+	z-index: 99;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	position: relative;
+	overflow: hidden;
+	box-shadow: var(--main_soft_shadow);
+}
+.banner-box1 .image_section .title_box .overlay
+{
+	background-color: orange;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	opacity: .8;
+}
+.banner-box1 .image_section .title_box h3
+{
+	font-size: 25px;
+	text-align: center;
+	z-index: 10;
+}
+.banner-box1 .image_section .bottom_image
+{
+	width: 430px;
+	height: 230px;
+	border-radius: 20px;
+	box-shadow: var(--main_soft_shadow);
+	position: absolute;
+}
+.banner-box1 .content_section
+{
+	width: 60%;
+	padding: 40px 20px;
+}
+.banner-box1 .content_section .title
+{
+	font-size: 2.5rem;
+}
+.banner-box1 .content_section .content
+{
+	font-size: 18px;
+}
+.banner-box1 .content_section .btn_wrapper
+{
+	margin-top: 20px;
+	text-align: left;
+}
+.banner-box1 .content_section .btn_cta
+{
+	border: 3px solid;
+	padding: 10px 25px;
+	border-radius: 100px;
+	font-weight: bold;
+}
+
+@media screen and (min-width: 1024px)
+{
+	.banner-box1 .image_section .bottom_image
+	{
+		top: 100%;
+		transform: translateY(-95%);
+		right: 0;
+	}
+	.banner-box1 .image_section.circle_mode .top_image,
+	.banner-box1 .image_section.circle_mode .title_box
+	{
+		border-radius: 50%;
+	}
+	.banner-box1 .image_section.circle_mode .bottom_image
+	{
+		border-radius: 50%;
+		width: 220px;
+		height: 220px;
+		right: 50px;
+	}
+}
+
+@media screen and (max-width: 1024px)
+{
+	.banner-box1
+	{
+		flex-direction: column;
+		overflow: hidden;
+	}
+	.banner-box1 .image_section
+	{
+		width: 100%;
+		min-height: 250px;
+	}
+	.banner-box1 .image_section .top_image
+	{
+		display: none;
+	}
+	.banner-box1 .image_section .title_box
+	{
+		position: absolute;
+		top: -10%;
+	}
+	.banner-box1 .image_section .bottom_image
+	{
+		width: 100%;
+		top: 0;
+		right: 0;
+		transform: unset;
+		border-radius: 10px;;
+	}
+	.banner-box1 .content_section
+	{
+		width: 100%;
+	}
+}

@@ -1,0 +1,45 @@
+.ahura_element_banner_box_3
+{
+	position: relative;
+	height: 300px;
+	display: block;
+	overflow: hidden;
+	border-radius: 10px;
+	background-color: #44D7AA;
+}
+.ahura_element_banner_box_3 .data
+{
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35%;
+	transition: all .3s;
+	background-color: #36ab87;
+}
+.ahura_element_banner_box_3:hover .data
+{
+	height: 100%;
+}
+.ahura_element_banner_box_3 .data .title,
+.ahura_element_banner_box_3 .data .icon {
+	color: #fff;
+}
+.ahura_element_banner_box_3 .data .title span {
+	font-size: 20px;
+	font-weight: bold;
+}
+.ahura_element_banner_box_3 .data .icon i {
+	font-size: 40px;
+}
+.ahura_element_banner_box_3 .data .icon svg {
+	width: 40px;
+}
+body.rtl .ahura_element_banner_box_3 .data .title
+{
+	border-left: 3px solid;
+	margin-left: 10px;
+    padding-left: 10px;
+}

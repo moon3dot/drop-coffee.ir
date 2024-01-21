@@ -1,0 +1,187 @@
+.ahura-hotspot-wrapper {
+    position: relative;
+    display: inline-block;
+    max-width: 100%
+}
+
+.ahura-hotspot-image {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    padding: 0
+}
+
+.ahura-hotspot-wrapper .ahura-hotspot-image>img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+.ahura-hotspot-wrapper .ahura-hotspot-item {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+    box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: inline-block;
+    -webkit-transition: background-color .2s, box-shadow .2s;
+    transition: background-color .2s, box-shadow .2s, -webkit-box-shadow .2s;
+    -o-transition: background-color .2s, box-shadow .2s
+}
+
+.ahura-hotspot-wrapper .ahura-hotspot-item .ahura-hotspot-item-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: inherit;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+    position: relative
+}
+
+.ahura-hotspot-item {
+    --ahura-hotspot-tooltip-top: 0;
+    --ahura-hotspot-tooltip-right: 0;
+    --ahura-hotspot-tooltip-bottom: 0;
+    --ahura-hotspot-tooltip-left: 0;
+    --ahura-hotspot-tooltip-transform-x: 0;
+    --ahura-hotspot-tooltip-transform-y: 0;
+    --ahura-hotspot-tooltip-margin: 0
+}
+
+.ahura-hotspot-tooltip-text {
+    position: absolute;
+    width: 150px;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+    top: var(--ahura-hotspot-tooltip-top);
+    right: var(--ahura-hotspot-tooltip-right);
+    bottom: var(--ahura-hotspot-tooltip-bottom);
+    left: var(--ahura-hotspot-tooltip-left);
+    -webkit-transform: translate(var(--ahura-hotspot-tooltip-transform-x), var(--ahura-hotspot-tooltip-transform-y));
+    -ms-transform: translate(var(--ahura-hotspot-tooltip-transform-x), var(--ahura-hotspot-tooltip-transform-y));
+    transform: translate(var(--ahura-hotspot-tooltip-transform-x), var(--ahura-hotspot-tooltip-transform-y));
+    margin: var(--ahura-hotspot-tooltip-margin);
+    -webkit-transition: opacity .3s ease-in-out;
+    -o-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out
+}
+
+.ahura-hotspot-tooltip-text>* {
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none
+}
+
+.ahura-hotspot-tooltip-text.ahura-active,
+.ahura-hotspot-type-hover:hover .ahura-hotspot-tooltip-text {
+    visibility: visible;
+    opacity: 1
+}
+
+.ahura-hotspot-tooltip-text.active {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: opacity .3s ease-in-out;
+    -o-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out
+}
+
+.ahura-hotspot-tooltip-text:before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #000000;
+    top: var(--ahura-hotspot-tooltip-before-top);
+    left: var(--ahura-hotspot-tooltip-before-left);
+    bottom: var(--ahura-hotspot-tooltip-before-bottom);
+    right: var(--ahura-hotspot-tooltip-before-right);
+    -webkit-transform: translate(var(--ahura-hotspot-tooltip-before-transform-x), var(--ahura-hotspot-tooltip-before-transform-y)) rotate(45deg);
+    -ms-transform: translate(var(--ahura-hotspot-tooltip-before-transform-x), var(--ahura-hotspot-tooltip-before-transform-y)) rotate(45deg);
+    transform: translate(var(--ahura-hotspot-tooltip-before-transform-x), var(--ahura-hotspot-tooltip-before-transform-y)) rotate(45deg);
+    --ahura-hotspot-tooltip-before-top: 0;
+    --ahura-hotspot-tooltip-before-right: 0;
+    --ahura-hotspot-tooltip-before-bottom: 0;
+    --ahura-hotspot-tooltip-before-left: 0;
+    --ahura-hotspot-tooltip-before-transform-x: 0;
+    --ahura-hotspot-tooltip-before-transform-y: 0
+}
+
+.ahura-hotspot-item .ahura-hotspot-item-wrap>i {
+    color: #000000;
+    font-size: 18px
+}
+
+.ahura-hotspot-item .ahura-hotspot-item-wrap>img {
+    max-width: 100%;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    min-width: 60px;
+    z-index: 2;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+.ahura-hotspot-item-wrap:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-animation: 2s infinite ahuraShadowPulse;
+    animation: 2s infinite ahuraShadowPulse
+}
+
+@-webkit-keyframes ahuraShadowPulse {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, .1);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, .1)
+    }
+
+    to {
+        -webkit-box-shadow: 0 0 0 30px transparent;
+        box-shadow: 0 0 0 30px transparent
+    }
+}
+
+@keyframes ahuraShadowPulse {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, .1);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, .1)
+    }
+
+    to {
+        -webkit-box-shadow: 0 0 0 30px transparent;
+        box-shadow: 0 0 0 30px transparent
+    }
+}

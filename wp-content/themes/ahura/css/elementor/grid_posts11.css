@@ -1,0 +1,120 @@
+.grid-posts-11 .box-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.grid-posts-11 .box-head .box-btns a i,
+.grid-posts-11 .box-head .box-btns a svg {
+    vertical-align: middle;
+    margin: 0 5px;
+}
+
+.grid-posts-11 .box-head .box-btns a svg {
+    width: 10px;
+    fill: #fff;
+}
+
+.grid-posts-11 > .row {
+    padding-left: 8px;
+    padding-right: 8px;
+    row-gap: 10px;
+}
+
+.grid-posts-11 > .row > div {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.grid-posts-11 .grid-post-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 100%;
+    overflow: hidden;
+    text-align: right;
+    background-color: #fff;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #E9E9E9;
+}
+
+.grid-posts-11 .grid-post-content > div {
+    width: 100%;
+}
+
+.grid-posts-11 .post-cover {
+    width: 100%;
+}
+
+.grid-posts-11 .post-cover:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.grid-posts-11 .post-cover img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    float: right;
+}
+
+.grid-posts-11 .post-title h2 {
+    color: #0b0c40;
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+.grid-posts-11 .post-details,
+.grid-posts-11 .post-content-bottom {
+    padding: 5px 10px 10px 10px;
+}
+
+.grid-posts-11 .post-excerpt {
+    margin-top: 10px;
+}
+
+.grid-posts-11 .post-excerpt p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #8d8d8d;
+}
+
+.grid-posts-11 .post-btn a {
+    padding: 4px 15px;
+    display: inline-block;
+    border-radius: 50px;
+    transition: ease .3s;
+}
+
+.grid-posts-11 .ahura-pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.grid-posts-11 .box-title {
+    color: #000;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.grid-posts-11 .box-btns a {
+    color: #fff;
+    background-color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 10px;
+    padding: 5px 20px 5px 20px;
+}
+
+.grid-posts-11 .ahura-pagination a,
+.grid-posts-11 .ahura-pagination span {
+    display: inline-block;
+    padding: 4px 12px;
+    margin: 3px;
+    font-size: 15px;
+    transition: ease .3s;
+}

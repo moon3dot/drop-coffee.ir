@@ -1,0 +1,30 @@
+.shop-countdown-element {
+	width: 100%;
+	padding: 50px;
+	text-align: center;
+	overflow: hidden;
+	border-radius: 7px;
+	box-shadow: 0 5px 10px #00000054;
+	background-color: #4054B2;
+}
+
+.shop-countdown-element span {
+	color: #fff;
+	font-size: 20px;
+}
+
+.shop-countdown-element #mwtimercountdown{
+	margin:20px auto;
+}
+
+.shop-countdown-element #mwtimercountdown li{
+	width:25%;
+	float:left;
+	color: white;
+	font-size:18px;
+}
+.shop-countdown-element #mwtimercountdown li span{
+	display:block;
+	color: white;
+	font-size:14px;
+}

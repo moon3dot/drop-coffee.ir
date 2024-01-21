@@ -1,0 +1,10 @@
+.sidebar-mode-2 ul li:before {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.sidebar-mode-2 .ahura-show-posts-author,
+.sidebar-mode-2 .ahura-show-posts-date {
+    margin-left: 0;
+    margin-right: 5px;
+}

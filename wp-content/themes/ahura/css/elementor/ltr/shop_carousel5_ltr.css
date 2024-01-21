@@ -1,0 +1,14 @@
+.shop-carousel5-wrap .box-title i {
+    margin-left: 0;
+    margin-right: 7px;
+}
+
+.shop-carousel5-wrap .product-item-wrap:not(:last-child):before {
+    left: auto;
+    right: 0;
+}
+
+.shop-carousel5-wrap .product-item.without-num .product-cover {
+    margin-left: 0;
+    margin-right: 10px;
+}

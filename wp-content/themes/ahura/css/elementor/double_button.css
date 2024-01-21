@@ -1,0 +1,39 @@
+.double-button {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+.double-button a {
+    width: 50%;
+    text-align: center;
+    background-color: #6e1feb;
+    color: #fff;
+    padding: 11px;
+    font-size: 15px;
+    border-radius: 14px;
+    transition: ease .3s;
+}
+
+.double-button a i {
+    vertical-align: middle;
+    margin: 0 4px;
+    color: #fff;
+}
+
+.double-button a svg {
+    width: 15px;
+    fill: #fff;
+}
+
+.double-button .btn1 {
+    width: 55%;
+    background-color: #8d44ff;
+    border-radius: 0 50px 50px 0;
+}
+
+.double-button .btn2 {
+    margin-right: -25px;
+    border-radius: 50px;
+}

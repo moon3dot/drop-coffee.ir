@@ -1,0 +1,126 @@
+.ah-archive-posts-element .ah-post-item-content {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 5px 15px #00000014;
+}
+
+.ah-archive-posts-element .ah-post-item-content > div {
+    width: 100%;
+}
+
+.ah-archive-posts-element .post-cover {
+    margin-bottom: 5px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.ah-archive-posts-element .post-cover > img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: ease .3s;
+}
+
+.ah-archive-posts-element .ah-post-title {
+    font-size: 1.2em;
+    color: #0b0c40;
+    font-weight: 700;
+    text-align: center;
+}
+
+.ah-archive-posts-element .post-metas {
+    margin-top: 10px;
+    text-align: center;
+    color: #b7b7b7;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.ah-archive-posts-element .post-metas i {
+    margin: 0 3px;
+    vertical-align: middle;
+}
+
+.ah-archive-posts-element .post-excerpt {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #a9a9a9;
+    font-weight: 300;
+}
+
+.ah-archive-posts-element .post-btn {
+    margin-top: 10px;
+}
+
+.ah-archive-posts-element .post-btn a {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 9px;
+    border-radius: 10px;
+    background-color: #b7ccdfb3;
+    color: #000;
+    font-size: 14px;
+    transition: ease .15s;
+}
+
+.ah-archive-posts-element .ahura-pagination {
+    padding: 10px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.ah-archive-posts-element .ahura-pagination :where(span, a) {
+    display: inline-block;
+    margin: 3px;
+    padding: 7px 15px;
+    color: #4c4c4c;
+    background-color: #f0f0f0;
+    border-radius: 50px;
+    font-size: 15px;
+    transition: ease .3s;
+}
+
+.ah-archive-posts-element .ahura-pagination :where(span, a):hover,
+.ah-archive-posts-element .ahura-pagination span.current {
+    background-color: #0b0c40;
+    color: #fff;
+}
+
+.ah-archive-posts-element .ah-not-found-content {
+    text-align: center;
+}
+
+.ah-archive-posts-element .ah-not-found-content img {
+    width: 30%;
+    border-radius: 7px;
+}
+
+.ah-archive-posts-element .ah-not-found-content h3 {
+    font-size: 1.5em;
+    color: #015a94;
+    font-weight: 900;
+    margin: 7px 0;
+}
+
+.ah-archive-posts-element .ah-not-found-content h4 {
+    font-size: 1.1em;
+    color: #83b0cf;
+    font-weight: 400;
+}
+
+.ah-archive-posts-element .ah-not-found-content .ah-more-links a {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #015a94;
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 10px;
+}

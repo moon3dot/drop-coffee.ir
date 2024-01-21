@@ -1,0 +1,58 @@
+.ahura_element_timeline_2 .ah-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.ahura_element_timeline_2 .ah-items .ah-item {
+    display: flex;
+    gap: 30px;
+    padding: 30px 0;
+    position: relative;
+}
+
+.ahura_element_timeline_2 .ah-items .ah-item .ah-dash-line {
+    content: '';
+    position: absolute;
+    height: 100%;
+    right: calc(30px - 2px / 2);
+    z-index: -10;
+}
+.ahura_element_timeline_2 .ah-items .ah-item:not(:last-of-type) .ah-dash-line {
+    border-right: 2px dashed #284f8c;
+}
+
+.ahura_element_timeline_2 .ah-items .ah-item .ah-icon {
+    background-color: #284f8c;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 30px;
+    color: white;
+}
+
+.ahura_element_timeline_2 .ah-items .ah-item .ah-icon::after {
+    content: '';
+    position: absolute;
+    background: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    z-index: -10;
+    border: 2px solid #7687A5;
+}
+
+.ahura_element_timeline_2 .ah-items .ah-item .ah-content {
+    flex: min-content;
+}
+.ahura_element_timeline_2 .ah-items .ah-item .ah-content .ah-title
+{
+    font-size: 18px;
+}
+.ahura_element_timeline_2 .ah-items .ah-item .ah-content .ah-description
+{
+    color: #626262;
+}

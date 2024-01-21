@@ -1,0 +1,4 @@
+.ahura-gallery-element .ahura-pagination .prev i,
+.ahura-gallery-element .ahura-pagination .next i {
+    transform: rotateY(180deg);
+}

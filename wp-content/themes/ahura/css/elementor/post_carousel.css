@@ -1,0 +1,44 @@
+.post-carousel-element {
+    width: 100%;
+}
+
+.post-carousel-element p {
+    padding: 20px;
+}
+
+.post-carousel-element .cat-name {
+    line-height: 40px;
+    display: inline-block;
+    border-right: 4px solid;
+    padding-right: 1em;
+}
+
+.post-carousel-element .cat-more-link {
+    text-align: center;
+    width: fit-content;
+    float: left;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.post-carousel-element .owl-nav {
+    display: none;
+}
+
+@media screen and (max-width: 1001px) {
+    .post-carousel-element .cat-more-link {
+        min-width: 25%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .post-carousel-element .cat-name {
+        width: 100%;
+    }
+
+    .post-carousel-element .cat-more-link {
+        width: 100%;
+        margin-top: 10px;
+    }
+}

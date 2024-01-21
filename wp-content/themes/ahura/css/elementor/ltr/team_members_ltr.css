@@ -1,0 +1,4 @@
+.ahura-team-members-element .ahura-pagination a.next i, 
+.ahura-team-members-element .ahura-pagination a.prev i {
+    transform: rotateY(180deg);
+}

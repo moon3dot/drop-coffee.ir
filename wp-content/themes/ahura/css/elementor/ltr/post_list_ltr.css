@@ -1,0 +1,15 @@
+.cat-name {
+    padding-left: 1em;
+    border-right: none;
+    border-left: 4px solid;
+    float: left;
+}
+
+.cat-more-link {
+    float: right;
+}
+
+.post-list,
+.post-list * {
+    direction: ltr;
+}

@@ -1,0 +1,28 @@
+.ahura_customize_simple_text_wrapper
+{
+    position: relative;
+}
+.ahura_customize_simple_text_wrapper input,
+.ahura_customize_simple_text_wrapper textarea
+{
+    box-shadow: none;
+    border-color: #d4d4d4;
+    position: relative;
+    z-index: 100;
+    padding: 5px;
+    transition: border-color .4s;
+}
+.ahura_customize_simple_text_wrapper textarea
+{
+    display: block;
+}
+.ahura_customize_simple_text_wrapper label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.ahura_customize_simple_text_wrapper input:focus,
+.ahura_customize_simple_text_wrapper textarea:focus
+{
+    border-color: #1e73be;
+}

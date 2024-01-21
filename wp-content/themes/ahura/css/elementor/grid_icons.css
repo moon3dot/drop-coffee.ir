@@ -1,0 +1,42 @@
+.ahura-logo-grid-wrapper:after {
+    display: block;
+    clear: both;
+    content: ""
+}
+
+.ahura-logo-grid-item {
+    float: left;
+    overflow: hidden;
+    height: 180px;
+    border-color: #e7e7e7
+}
+
+.ahura-logo-grid-figure {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0;
+    padding: 30px;
+    width: 100%;
+    height: 100%
+}
+
+.ahura-logo-grid-img {
+    max-height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    margin: 0 auto
+}
+
+.ahura-logo-grid-item {
+    margin: .5rem;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: .5rem
+}

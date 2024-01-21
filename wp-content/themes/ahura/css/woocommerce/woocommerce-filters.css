@@ -1,0 +1,193 @@
+.sidebar .ah-widget-ul-type li::before {
+    display: none;
+}
+
+.sidebar .ah-widget-ul-type {
+    padding: 0;
+}
+
+.sidebar .ah-widget-ul-type li {
+    margin-top: 5px;
+}
+
+.sidebar .ah-widget-ul-type a {
+    display: flex;
+    gap: 7px;
+    justify-content: space-between;
+    width: 100%;
+    padding: 7px 0;
+    font-size: 15px;
+    color: #7e7e7e;
+    border-radius: 50px;
+}
+
+.sidebar .ah-widget-ul-type a em {
+    font-style: normal;
+}
+
+.sidebar .ah-widget-ul-type li.current a {
+    background-color: #f0f0f0;
+    padding: 7px 10px;
+}
+
+.sidebar .ah-widget-ul-type .ah-color {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    vertical-align: middle;
+    border-radius: 50px;
+    margin-top: -2px;
+    transition: ease .15s;
+}
+
+.sidebar .ah-widget-ul-type a:hover .ah-color {
+    transform: scale(1.1);
+}
+
+.sidebar .ah-widget-wc-filter-rating .ah-li-label {
+    color: #cfcfcf;
+}
+
+.ah-widget-wc-filter-rating .ah-li-label .active {
+    color: #FFC107;
+}
+
+.sidebar .wc-block-rating-filter-list li::before,
+.sidebar .wc-block-rating-filter-list li input,
+.sidebar .wc-block-active-filters__list li::before,
+.sidebar .wc-layered-nav-rating li::before,
+.sidebar .wc-layered-nav-rating::before,
+.woocommerce .woocommerce-widget-layered-nav-list .woocommerce-widget-layered-nav-list__item::before,
+.sidebar .woocommerce-widget-layered-nav-list .woocommerce-widget-layered-nav-list__item::before,
+.sidebar .ah-widget-brands-list li::before {
+    display: none;
+}
+
+.sidebar .wc-block-rating-filter .wc-block-components-product-rating {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sidebar .wc-block-components-checkbox .wc-block-components-checkbox__label {
+    width: 100%;
+}
+
+.sidebar .wc-block-components-product-rating__stars::before {
+    font-family: "Font Awesome 5 Free", serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: #ddd;
+    content: "\f005\f005\f005\f005\f005";
+}
+
+.sidebar .wc-block-components-product-rating__stars > span::before {
+    font-family: "Font Awesome 5 Free", serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: #FFC107;
+    content: "\f005\f005\f005\f005\f005";
+}
+
+.sidebar .wc-block-components-filter-reset-button {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 7px;
+}
+
+.wc-block-components-checkbox .wc-block-components-checkbox__input:checked ~ .wc-block-components-checkbox__label {
+    padding-right: 25px;
+}
+
+.wc-block-product-categories-list li {
+    margin-top: 6px;
+    font-size: 15px;
+}
+
+.wc-block-product-categories-list-item-count {
+    color: #afafaf;
+    font-size: 13px;
+}
+
+.sidebar .wc-block-product-categories-list li a:before,
+.sidebar .sidebar-widget ul.product-categories li a:before {
+    content: "\f07b";
+    font-family: "Font Awesome 5 Free";
+    margin-left: 7px;
+}
+
+.sidebar .wc-block-product-categories,
+.sidebar .wp-block-woocommerce-rating-filter {
+    margin: 0;
+}
+
+.sidebar .sidebar-widget ul.product-categories li a {
+    display: inline-block;
+}
+
+.sidebar ul.woocommerce-widget-layered-nav-list .count {
+    padding: 5px;
+    font-size: 12px;
+    background-color: #dfdfdf;
+    color: #525252;
+}
+
+.sidebar ul.woocommerce-widget-layered-nav-list li:hover .count {
+    background-color: #e6123d;
+    color: #fff;
+}
+
+.sidebar .ah-widget-brands-list {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5px;
+}
+
+.ah-widget-brands-list li {
+    width: 25%;
+}
+
+.ah-widget-brands-list a {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 5px;
+}
+
+.ah-widget-brands-list a .brand-title {
+    font-size: 12px;
+    margin-top: 5px;
+    color: #7e7e7e;
+}
+
+.ah-widget-brands-list img {
+    transform: scale(.9);
+    filter: grayscale(100%);
+    transition: ease .2s;
+    opacity: .8;
+}
+
+.ah-widget-brands-list a:hover img {
+    transform: scale(1);
+    filter: grayscale(0);
+    opacity: 1;
+}
+
+.ah-widget-brands-list .brand-promotion {
+    position: absolute;
+    z-index: 5;
+    display: inline-block;
+    right: 0;
+    top: 0;
+    background-color: #e6123d;
+    color: #fff;
+    font-size: 11px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    padding-top: 3px;
+}

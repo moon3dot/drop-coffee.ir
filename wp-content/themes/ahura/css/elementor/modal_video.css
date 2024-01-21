@@ -1,0 +1,86 @@
+.ahura_elementor_modal_video_wrapper .ah-fit-content
+{
+    width: fit-content;
+}
+
+.ahura_elementor_modal_video_wrapper .ah-modal-video-btn {
+    background-color: #d1f9d1;
+    padding: 10px 10px 10px 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ahura_elementor_modal_video_wrapper .ah-modal-video-btn .ah-icon {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    z-index: 10;
+}
+
+.ahura_elementor_modal_video_wrapper .ah-modal-video-btn .ah-icon.ah-pulse::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #9aea9e;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -10;
+    border-radius: 50%;
+    animation: ah_pulse 1s infinite alternate;
+}
+
+.ahura_elementor_modal_video_wrapper .ah-modal-video-btn .ah-icon::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #65ca6b;
+    left: 0;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+
+.ahura_elementor_modal_video_wrapper .ah-modal-video-btn .ah-text {
+    color: black;
+}
+
+.ahura_elementor_modal_video_wrapper .ah-modal-box {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: #000000cc;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 500;
+}
+
+.ahura_elementor_modal_video_wrapper .ah-video {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 501;
+    transform: translate(-50%, -50%);
+}
+
+.ahura_elementor_modal_video_wrapper .ah-video video {
+    border-radius: 10px;
+}
+
+@keyframes ah_pulse {
+    100% {
+        transform: scale(1.2, 1.2);
+    }
+}

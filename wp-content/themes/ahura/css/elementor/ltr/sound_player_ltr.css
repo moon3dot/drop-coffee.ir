@@ -1,0 +1,23 @@
+.sound-player-1 .sound-cover-wrap {
+    border-radius: 7px 7px 40px 7px;
+    box-shadow: 5px 0 0 rgb(0 0 0 / 15%), inset 0 0 5px rgb(0 0 0 / 19%);
+}
+
+.sound-player-1 .sound-cover-wrap .sound-cover {
+    border-radius: 5px 5px 34px 5px;
+}
+
+.sound-player-1 .player-share-buttons-content a i {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.sound-player-1 .sound-timer-progress span {
+    left: auto;
+    right: -11px;
+}
+
+.sound-player-1 .sound-timer-line .stl {
+    right: auto;
+    left: 0;
+}

@@ -1,0 +1,115 @@
+.swiper.items-carousel {
+    width: 100%;
+    padding: 50px 0;
+    position: unset;
+    overflow: hidden;
+}
+
+.swiper.items-carousel .swiper-wrapper {
+    overflow: visible;
+}
+
+.items-carousel .swiper-slide {
+    padding: 10px;
+    display: flex;
+    border-radius: 20px;
+    min-height: 200px;
+    background-color: #5c79d1;
+    overflow: hidden;
+}
+
+.items-carousel .swiper-slide-next {
+    transform: scale(1.2);
+    min-height: 180px;
+    box-shadow: 0 0 20px 5px #9c70f455;
+}
+
+.items-carousel .items-carousel-button-prev {
+    background: #7d7c7c8f;
+    position: absolute;
+    left: 0;
+    top: 40%;
+    z-index: 9;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.items-carousel .items-carousel-button-next {
+    background: #7d7c7c8f;
+    position: absolute;
+    right: 0;
+    top: 40%;
+    z-index: 9;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.items-carousel .items-carousel-image {
+    width: 50%;
+}
+
+.items-carousel .items-carousel-content {
+    width: 50%;
+    text-align: center;
+}
+
+.items-carousel .items-carousel-image img {
+    width: 150px;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.items-carousel .items-carousel-title {
+    width: 100%;
+    text-align: center;
+}
+
+.items-carousel .items-carousel-title h5 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 35px;
+    margin-top: 33px;
+}
+
+.items-carousel .items-carousel-link {
+    padding: 8px 25px;
+    border-radius: 100px;
+    margin: 30px auto 0 auto;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 9px 010px 10px 4px rgb(38 70 141 / 10%) inset;
+    font-size: 15px;
+    color: #5C79D1;
+    background-color: #fff;
+}
+
+.items-carousel .swiper-slide-next .items-carousel-link {
+    padding: 5px 20px;
+}
+
+@media only screen and (max-width: 430px) {
+    .items-carousel .swiper-slide {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .items-carousel .swiper-slide-next {
+        transform: scale(1);
+        min-height: 200px;
+    }
+}

@@ -1,0 +1,214 @@
+.grid-posts-8 .element-post-content {
+    background-color: #f6e6ff;
+    border-radius: 30px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-posts-8 .row {
+    row-gap: 25px;
+}
+
+.grid-posts-8 .element-post-content-top {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 23px rgb(0 0 0 / 15%);
+}
+
+.grid-posts-8 .post-cover {
+    width: 100%;
+    position: relative;
+    float: right;
+}
+
+.grid-posts-8 .post-cover:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    box-shadow: inset 0 -50px 40px rgb(0 0 0 / 36%);
+}
+
+.grid-posts-8 .post-cover img {
+    width: 100%;
+    height: 200px;
+    border-radius: 30px;
+    float: right;
+    object-fit: cover;
+}
+
+.grid-posts-8 .post-metas {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    padding: 15px;
+}
+
+.grid-posts-8 .post-metas .post-meta {
+    display: inline-block;
+    font-size: 13px;
+    color: #fff;
+    margin: 0 0 0 5px;
+}
+
+.grid-posts-8 .post-metas .post-meta span {
+    position: relative;
+    top: 2px;
+    vertical-align: middle;
+}
+
+.grid-posts-8 .post-metas .post-meta .meta-icon {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    background-color: transparent;
+    background-size: 18px;
+    background-repeat: no-repeat;
+    margin-left: 3px;
+}
+
+.grid-posts-8 .post-metas .post-meta .meta-icon-heart {
+    background-image: url("../../img/icons/icon-heart.webp");
+}
+
+.grid-posts-8 .post-metas .post-meta .meta-icon-comment {
+    background-image: url("../../img/icons/icon-comment.webp");
+}
+
+.grid-posts-8 .post-metas .post-meta .meta-icon-calendar {
+    background-image: url("../../img/icons/icon-calendar.webp");
+}
+
+.grid-posts-8 .without-thumb .post-metas {
+    position: relative;
+}
+
+.grid-posts-8 .post-details {
+    padding: 15px;
+    clear: both;
+}
+
+.grid-posts-8 .post-title h2 a {
+    color: #000;
+}
+
+.grid-posts-8 .post-title h2 {
+    font-size: 19px;
+    height: 58px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.grid-posts-8 .post-excerpt {
+    font-size: 13px;
+    margin-top: 10px;
+    color: #787878;
+}
+
+.grid-posts-8 .element-post-content-bottom {
+    padding: 10px;
+    align-self: end;
+    width: 100%;
+}
+
+.grid-posts-8 .post-btn {
+    text-align: center;
+}
+
+.grid-posts-8 .post-btn a {
+    display: inline-block;
+    padding: 6px 9px;
+    text-align: right;
+    background-color: #fff;
+    color: #d5a2f2;
+    border-radius: 50px;
+    font-size: 13px;
+    transition: ease .4s;
+}
+
+.grid-posts-8 .post-btn a :is(i,svg) {
+    float: left;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-right: 6px;
+}
+
+.grid-posts-8 .post-btn svg {
+    width: 15px;
+}
+
+.grid-posts-8 .element-post-content:hover .post-btn a {
+    background-color: #6d0cff;
+    color: #fff;
+}
+
+.grid-posts-8 .post-bottom-cols.post-bottom-cols-single .post-btn a {
+    min-width: 50%;
+}
+
+.grid-posts-8 .post-bottom-cols {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.grid-posts-8 .post-bottom-cols .post-bottom-col {
+    width: calc(100% /2);
+}
+
+.grid-posts-8 .post-bottom-cols.post-bottom-cols-single .post-bottom-col {
+    width: 100%;
+}
+
+.grid-posts-8 .post-author img {
+    width: 37px;
+    height: 37px;
+    border-radius: 50px;
+    float: right;
+    margin-left: 7px;
+}
+
+.grid-posts-8 .post-author div {
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: inherit;
+    color: #ba96cf;
+}
+
+.grid-posts-8 .post-author .post-author-name {
+    font-size: 13px;
+    font-weight: 600;
+    color: #333;
+}
+
+.grid-posts-8 .ahura-pagination {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.grid-posts-8 .ahura-pagination :where(a, span) {
+    padding: 4px 12px;
+}
+
+@media screen and (max-width: 767px) {
+    .grid-posts-8 .post-metas .post-meta.meta-date {
+        width: 100%;
+        margin-top: 3px;
+    }
+
+    .grid-posts-8 .post-bottom-cols .post-bottom-col:first-child {
+        display: none;
+    }
+
+    .grid-posts-8 .post-bottom-cols .post-bottom-col {
+        width: 100%;
+    }
+}

@@ -1,0 +1,41 @@
+.imgbox2 {
+    color: #333;
+    background-color: white;
+    box-shadow: var(--main_soft_shadow);
+    border-radius: 10px;
+    padding: 20px;
+    overflow: hidden;
+    width: 100%;
+    display: block;
+    text-align: center;
+    transition: ease .2s;
+    background-repeat: no-repeat;
+}
+
+.imgbox2 span {
+    font-size: 15px;
+    display: inline-block;
+    padding-top: 30px;
+}
+
+.imgbox2 p {
+    font-size: 22px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.imgbox2 img {
+    float: right;
+    max-width: 40%;
+}
+
+.imgbox2:hover {
+    background-color: #f34b59;
+    box-shadow: 0 0 20px #f34b59;
+    color: #fff;
+    background-size: 200px;
+}
+
+.imgbox2:hover * {
+    color: #fff;
+}

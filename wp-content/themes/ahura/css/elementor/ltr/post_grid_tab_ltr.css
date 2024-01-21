@@ -1,0 +1,8 @@
+body:not(.rtl) .post-grid-tab-1 .tab-title {
+    padding-left: 15px;
+}
+
+body:not(.rtl) .post-grid-tab-1 .tab-title:before {
+    right: auto;
+    left: 0;
+}

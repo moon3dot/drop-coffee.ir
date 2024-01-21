@@ -1,0 +1,39 @@
+.ahura_customize_ios_checkbox_wrapper input[type=checkbox] {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 60px !important;
+    height: 30px !important;
+    border-radius: 100px;
+    position: relative;
+    padding: 5px !important;
+    display: inline-block !important;
+    background: #e0e0e0 !important;
+}
+.ahura_customize_ios_checkbox_wrapper input[type=checkbox]:after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 90px;
+    transition: 0.3s;
+}
+.ahura_customize_ios_checkbox_wrapper input[type=checkbox]:active:after {
+    width: 40px;
+}
+.ahura_customize_ios_checkbox_wrapper input[type=checkbox]:checked {
+    background: #2aba5f !important;
+    border: none !important;
+}
+.ahura_customize_ios_checkbox_wrapper input[type=checkbox]:checked:before {
+    opacity: 0;
+    color: #fff !important;
+    top: 10px;
+    margin: -7px -6px 0 0 !important;
+}
+.ahura_customize_ios_checkbox_wrapper input[type=checkbox]:checked:after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+}

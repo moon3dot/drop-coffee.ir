@@ -1,0 +1,188 @@
+.shop_carousel2 {
+	padding: 1.5rem;
+}
+.shop_carousel2 .owl-carousel .owl-item .price,
+.shop_carousel2 .carousel-box .quantity input[type="number"],
+.shop_carousel2 .carousel-box .mw_qty_btn i,
+.shop_carousel2 .shop_carousel2_header .title {
+	color: #66bb6a;
+}
+.shop_carousel2 .shop_carousel2_header div.title:before {
+	border-color: #66bb6a;
+}
+.shop_carousel2 .shop_carousel2_header a.link,
+.shop_carousel2 .carousel-box form button {
+	background-color: #66bb6a;
+}
+.shop_carousel2 .owl-carousel .owl-item .carousel-box {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	margin: 10px;
+	box-shadow: 0 0 17px rgba(0, 0, 0, 0.1);
+	border-radius: 20px;
+	padding: 0;
+	text-align: center;
+	height: 100%;
+	overflow: hidden;
+}
+.shop_carousel2 .owl-carousel .owl-item .carousel-box > div {
+	width: 100%;
+}
+.shop_carousel2 .shop_carousel2_header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0;
+	position: relative;
+	z-index: 5;
+}
+.shop_carousel2 .shop_carousel2_header .title {
+	position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	font-size: 25px;
+	padding-right: 10px;
+}
+.shop_carousel2 .shop_carousel2_header .title:before {
+	content: '';
+	width: 0;
+	height: 100%;
+	position: absolute;
+	border-radius: 20px;
+	top: 0;
+	right: 0;
+	border-right: 6px solid #333;
+}
+.shop_carousel2 .shop_carousel2_header a.link {
+	box-shadow: 0 7px 20px #ffc33a60;
+	padding: 12px 20px;
+	border-radius: 20px;
+    color: #000;
+}
+.shop_carousel2 .carousel-box .quantity input {
+	border: none;
+	box-shadow: none;
+	pointer-events: none;
+    width: 35px;
+	text-align: right;
+	font-size: 16px;
+}
+
+.shop-carousel2-element.shop_carousel2 .owl-carousel {
+	padding: 10px 10px 30px 10px;
+	background: transparent;
+}
+
+.shop_carousel2 .owl-carousel .owl-item, 
+.shop_carousel2 .owl-carousel .owl-item:hover {
+    background: none;
+    box-shadow: none;
+}
+.shop_carousel2 .owl-carousel .owl-stage {
+	display: flex;
+	margin: 0;
+}
+.shop_carousel2 .owl-nav {
+	display: none;
+}
+.shop_carousel2 .owl-carousel .owl-item h3 {
+	min-height: 21px;
+	border-bottom: none;
+	margin: 0;
+	padding: 10px;
+}
+.shop_carousel2 .owl-carousel .owl-item h5 {
+    font-size: 14px;
+    color: #aaa;
+	font-weight: normal;
+	padding-right: 10px
+}
+.shop_carousel2 .owl-carousel .owl-item .price {
+	padding: 10px;
+	justify-content: center
+}
+
+.shop_carousel2 .owl-carousel .owl-item img {
+	border-radius: 0;
+}
+
+.shop_carousel2 .carousel-box form {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+.shop_carousel2 .carousel-box form.wqty {
+	justify-content: center;
+}
+.shop_carousel2 .carousel-box form .quantity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+	gap: 4px;
+}
+.shop_carousel2 .carousel-box form button {
+	padding: 6px 10px;
+    color: #fff;
+	border-radius: 10px;
+}
+
+.shop_carousel2 .carousel-box .mw_qty_btn {
+    cursor: pointer;
+	border: 1px solid #aaa;
+	padding: 4px 7px 0 7px;
+	border-radius: 10px
+}
+.shop_carousel2 .carousel-box .quantity input::-webkit-outer-spin-button,
+.shop_carousel2 .carousel-box .quantity input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.shop_carousel2 .carousel-box .quantity input[type=number] {
+  	-moz-appearance: textfield;
+  	text-align: center;
+	background-color: transparent;
+	border-radius: 7px;
+}
+.shop_carousel2 .owl-carousel .owl-prev{
+	left: 7px;
+}
+.shop_carousel2 .owl-carousel .owl-next {
+	right: 7px;
+}
+
+@media only screen and (max-width: 500px) {
+	.shop_carousel2 .shop_carousel2_header {
+        flex-direction: column;
+    }
+    .shop_carousel2 .title {
+        padding-right: 0;
+    }
+    .shop_carousel2 .shop_carousel2_header .title:before {
+        display: none
+    }
+    .shop_carousel2 .shop_carousel2_header a.link {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 700px) {
+	.shop_carousel2 .carousel-box form {
+		flex-direction: column;
+	}
+	.shop_carousel2 .carousel-box form button {
+		margin-top: 10px;
+	}
+}
+
+@media (min-width: 400px) and (max-width: 500px) {
+	.shop_carousel2 .carousel-box form {
+		flex-direction: column;
+	}
+	.shop_carousel2 .carousel-box form button {
+		margin-top: 10px;
+	}
+}

@@ -1,0 +1,20 @@
+.ahura-element-gotop {
+    display: flex;
+    justify-content: center;
+}
+
+.ahura-element-gotop .gotop-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 115px;
+    gap: 10px;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+    box-shadow: none;
+    color: #777777;
+    padding: 7px;
+    border-radius: 7px;
+    font-size: 15px;
+    transition: ease .2s;
+}

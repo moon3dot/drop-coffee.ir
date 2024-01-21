@@ -1,0 +1,90 @@
+.ahura-products-category {
+    position: relative;
+}
+
+.ahura-products-category-carousel .product-cat-item {
+    position: relative;
+    display: block;
+    margin: 0 auto 0 auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 15px;
+    color: #000;
+    transition: ease .3s;
+}
+
+.ahura-products-category .product-cat-item:hover {
+    color: #673ab7;
+}
+
+.ahura-products-category .product-cat-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 7px;
+    box-shadow: none;
+    margin-bottom: 5px;
+}
+
+.ahura-products-category .product-cat-item em {
+    display: inline-block;
+    font-style: normal;
+    background-color: #919191;
+    color: #fff;
+    height: 25px;
+    min-width: 25px;
+    padding: 2px 7px;
+    border-radius: 50px;
+    vertical-align: middle;
+    margin: 0 3px;
+}
+
+.ahura-products-category .product-cat-item:hover em {
+	background-color: #673ab7;
+}
+
+.ahura-products-category .product-cat-item span,
+.ahura-products-category .product-cat-item em {
+	transition: ease .3s;
+}
+
+.ahura-products-category .apc-swiper-pagination {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.ahura-products-category .apc-swiper-pagination span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+}
+
+.ahura-products-category .swiper-nav-button {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 5;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    width: 40px;
+    height: 40px;
+    transform: translateY(-50%);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.ahura-products-category .swiper-nav-button.apc-swiper-button-next {
+    right: auto;
+    left: 0;
+}
+
+.ahura-products-category.has-navigate .ahura-products-category-carousel {
+    padding: 0 50px;
+}
+
+.apc-swiper-pagination.swiper-pagination-progressbar {
+    margin-top: 0;
+}

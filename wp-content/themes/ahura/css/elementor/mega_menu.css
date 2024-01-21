@@ -1,0 +1,13 @@
+.elementor .ahura-mega-menu-element .cats-list-title {
+    color: #333;
+}
+
+.ahura-mega-menu-element .cats-list {
+    width: 270px;
+}
+
+@media screen and (max-width: 1024px) {
+    .ahura-mega-menu-element .cats-list {
+        width: 100%;
+    }
+}

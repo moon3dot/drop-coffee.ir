@@ -1,0 +1,21 @@
+.button-container {
+    display: flex;
+}
+
+.sharing-container .btn-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    color: #ffffff;
+    background: #354ac4;
+    box-shadow: 0 20px 20px -10px rgba(66, 165, 245, 0.5);
+    margin: 5px;
+}
+
+.sharing-container .btn-holder svg {
+    width: 15px;
+    fill: #fff;
+}
